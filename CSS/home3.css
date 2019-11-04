@@ -1,0 +1,131 @@
+
+body{
+    width:100%;
+}
+.menu-li{
+    float:left;
+    width:324px;
+    height:1000px;
+    background-color:red;
+}
+.content{
+
+    float:left;
+    width:1022px;
+    height:1000px;
+    background-color:yellow;
+}
+/*search box*/
+.search-box {
+    display: inline-block;
+    width: 100%;
+    padding: 4px 55px 4px 15px;
+    position: relative;
+    background: #1d1d1d;
+    border: 1px solid #ddd;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.search-box.hovered, .search-box:hover, .search-box:active {
+    border: 1px solid #aaa;
+}
+
+.search-box input[type=text] {
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    padding: 0;
+    background: transparent;
+}
+
+.search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {
+    box-shadow: none;
+}
+.search-form{
+    height:25px;
+    margin-top:-6px;
+}
+.search-box .search-btn {
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 5px 10px 1px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: color 200ms ease-in-out;
+}
+
+.search-box .search-btn:hover {
+    color: #fff;
+    background-color:#b2b2b2;
+}
+/*sign in va register*/
+.signin{
+    float:left;
+    width:100%;
+    height:50px;
+    background-color:pink;
+}
+/*logo*/
+.logo{
+    float:left;
+    width:100%;
+    height:50px;
+    background-color:white;
+}
+/*content phần menu*/
+.danh-muc{
+    float:left;
+    width:100%;
+}
+
+.fa-chevron-right{
+    font-size:30px;
+    margin-left:2px;
+}
+
+/*formenu */
+.menu-item{
+    position: relative;
+}
+.submenu{
+    display: none;
+
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+}
+.submenu li {
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
+}
+.exam{
+    width:60px;
+    height:60px;
+    background-color:white;
+}
+.content1{
+    float:left;
+    width:100%;
+}
+.content2{
+    float:left;
+    width:100%;
+
+}
+.content2-1{
+    float:left;
+    width:50%;
+}
+.content2-1:hover{
+    transform: scale(2);
+    box-sizing: border-box;
+
+}

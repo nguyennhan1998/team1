@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LIBERTY ELECTRONICS</title>
+
+    <script src="https://kit.fontawesome.com/50317932e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/home3.css">
+    <link href="CSS/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script type="text/javascript" src="JS/jquery-1.11.0.min.js"></script>
+    <style>
+        @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+        html, body {margin: 0;padding: 0;font-family: 'Open Sans';}
+        body { background-color: #fafafa; }
+        h1 {text-align: center;font-weight: 300; margin-top:150px;}
+        #slider {position: relative;overflow: hidden;margin: 20px auto 0 auto;border-radius: 4px;width: 1022px;height: 500px;}
+        #slider ul {position: relative;margin: 0;padding: 0;height: 200px;list-style: none;left: 0px;}
+        #slider ul li {position: relative;display: block;float: left;margin: 0;padding: 0;width: 1022px;height: 500px;background: #ccc;text-align: center;line-height: 300px;}
+        a.prev, a.next {position: absolute;top: 40%;z-index: 999;display: block;padding: 4% 3%;width: auto;height: auto;background: #2a2a2a;color: #fff;text-decoration: none;font-weight: 600;font-size: 18px;opacity: 0.8;cursor: pointer;}
+        a.prev:hover, a.next:hover {opacity: 1;-webkit-transition: all 0.2s ease;}
+        a.prev {border-radius: 0 2px 2px 0;}
+        a.next {right: 0;border-radius: 2px 0 0 2px;}
+
+        /*.nav{position: relative;margin: 0 auto;width: 300px;}
+        .nav ul{padding: 0px;margin: 0px auto;width: 34%;background: red;height: 20px;}
+        .nav ul li{display: inline;float: left;background: grey;margin: 0px 5px;color: transparent;border-radius: 20px;height: 15px;width: 15px;cursor: pointer;}*/
+
+    </style>
+    <script src="JS/slider.js"></script>
+</head>
+<body>
+<div class="menu-li">
+    <!--menu-search-->
+    <div class="menu-search">
+        <div class="search-box">
+            <form class="search-form" action="get"> <input class="form-control" placeholder="search the store..." type="text">
+                <button class="btn btn-link search-btn"> <i class="glyphicon glyphicon-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    <!--phần sign in và regiter-->
+    <div class="signin">
+        <p><a href="#"> SIGN IN</a>or<a href="#"> REGISTER </a><i class="fas fa-gift"></i>
+            <i class="fas fa-shopping-bag"></i>
+
+            </p>
+
+    </div>
+    <!--kết thúc sign in-->
+    <!--logo-->
+    <div class="logo">
+
+        <img src="IMG/logo-mediamart.PNG" height="55" width="233"/></div>
+    <!--danh muc menu-->
+    <div class="danh-muc">
+           <ul>
+               <li><span><a href="#">Danh mục sản phẩm</a></span>
+               <span class="exam"><span class="menu-item parent">
+                  <i class="fas fa-chevron-right"></i>
+                   <ul class="submenu">
+                       <li><a href="#">Tivi</a></li>
+                       <li><a href="#">Laptop</a></li>
+                       <li><a href="#">Smartphone</a></li>
+                       <li><a href="#">Kỹ thuật số</a></li>
+                   </ul>
+               </p>
+
+               </span>
+               </span>
+               </li>
+
+
+               <li><span><a href="#">Chọn theo giá tiền</a></span>
+                   <span class="menu-item parent">
+                  <i class="fas fa-chevron-right"></i>
+                   <ul class="submenu">
+                       <li><a href="#">5-10 triệu</a></li>
+                       <li><a href="#">10-15 triệu</a></li>
+                       <li><a href="#">15-20 triệu</a></li>
+                       <li><a href="#">>50 triệu</a></li>
+                   </ul>
+               </span>
+
+
+               </li>
+               <li><a href="#">Khuyến mại</a></li>
+               <li><a href="#">Cửa hàng</a></li>
+               <li><a href="#">Phương thức thanh toán</a></li>
+        </ul>
+    </div>
+    <!--footer-menu-->
+    <div class="footer-menu">
+        <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+        <div class="search-box">
+            <form class="search-form" action="get"> <input class="form-control" placeholder="search the store..." type="text">
+                <button class="btn btn-link search-btn"><i class="far fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+
+        <p>Get the latest updates on new products and upcoming sales</p>
+        <p>CONNECT WITH US</p>
+        <p><i class="fab fa-twitter"></i><i class="fab fa-facebook-square"></i><i class="fab fa-pinterest"></i>
+            <i class="fab fa-youtube"></i><i class="fab fa-instagram"></i></p>
+    </div>
+
+
+</div>
+<div class="content">
+    <!--slider-->
+    <div class="content1">
+        <div id="slider">
+            <a href="#" class="next">></a> 	<!--all ways mention control class for slider anchor -->
+            <a href="#" class="prev"><</a>	<!--all ways mention control class for slider anchor -->
+            <ul>
+                <li><img src="IMG/slide01__32038.PNG" height="500" width="1022"/></li>
+                <li><img src="IMG/slide02__78707.PNG" height="500" width="1022"/></li>
+            </ul>
+        </div>
+   <!--chi tiet san pham-->
+        <div class="content2">
+            <div class="content2-1">
+                <img src="IMG/watch.PNG" height="504" width="502"/></div>
+            </div>
+
+
+    </div>
+
+
+</div>
+<script type="text/javascript" src="js/customhom2.js"></script>
+<script>
+    $("#slider").sliderNd({
+        delay		:	200,
+        autoplay	:	true,
+        navigation	:	true
+    });
+</script>
+</body>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</body>
+</html>

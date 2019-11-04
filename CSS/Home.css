@@ -1,0 +1,156 @@
+header{
+    width:100%;
+}
+.nu1{
+    width:100%;
+    background-color:#06377b;
+}
+.nu2{
+    width:100%;
+    background-color:#e3007b;
+    color:white;
+}
+.nu2 a{ text-decoration: none;
+    color:white;
+    font-size:14px;
+    font-weight:600;
+
+}
+
+.nu2 .iem{
+    margin-top:10px;
+    margin-bottom:0px;
+
+}
+.nu2 img{
+    margin-top:10px;
+}
+.nu2 .iem1{
+    font-size:13px;
+}
+.iem2 a{
+    font-size:14px;
+    font-weight:400;
+}
+.nu3{
+    width:100%;
+    background-color:#ffd504;
+}
+.logo{
+    width:225px;
+}
+.iem5{
+    float:left;
+    background-color:#fef200;
+    width:225px;
+}
+.iem5 p {
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.iem5 p span{
+    font-size:12px;
+}
+.fa-bars{
+    margin-left:15px;
+    color:black;
+    font-size:20px;
+}
+.iem6{
+    float:left;
+}
+.iem6 a, .iem8 a,.iem7 a {
+    color:black;
+    text-decoration:none;
+    font-size:12px;
+}
+.iem6, .iem8, .iem7{
+    padding-top:10px;
+}
+
+.fa-angle-double-right{
+    margin-left:15px;
+}
+.search-box {
+    display: inline-block;
+    width: 100%;
+    border-radius: 3px;
+    padding: 4px 55px 4px 15px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.search-box.hovered, .search-box:hover, .search-box:active {
+    border: 1px solid #aaa;
+}
+
+.search-box input[type=text] {
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    padding: 0;
+    background: transparent;
+}
+
+.search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {
+    box-shadow: none;
+}
+.search-form{
+    height:25px;
+    margin-top:-6px;
+}
+.search-box .search-btn {
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    color: #aaa;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 5px 10px 1px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: color 200ms ease-in-out;
+}
+
+.search-box .search-btn:hover {
+    color: #fff;
+    background-color: #8FBE00;
+}
+section {
+    width:100%;
+    background-color:#efefef;
+}
+.e1{
+    float:left;
+    width:225px;
+    background-color:white;
+}
+.e1 li{
+    border-bottom:1px solid grey;
+}
+.e1 li a{
+    color:black;
+    text-decoration:none;
+    font-size:12px;
+    line-height:2.5;
+}
+.HTML1{
+    background-color:white;
+}
+.e2{
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+}
+.e3{
+    float:left;
+}
+.e3 img{
+    float:left;
+
+
+}
