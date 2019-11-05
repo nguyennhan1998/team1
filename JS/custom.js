@@ -4,13 +4,13 @@ var z = $("#labels");
 var art = $(".art-desc");
 //var flag = true;
 
-$(".back-to-top").bind("mouseenter",function(){
+$(".back-to-top").bind("clickr",function(){
     $("html").animate({
         scrollTop: 0
     },200);
 });
 
-$(".menu-item.parent").bind("click",function () {
+$(".menu-item.parent").bind("mouseenter",function () {
     var li = $(this);
     var sub = li.children(".submenu");
     sub.slideDown();
