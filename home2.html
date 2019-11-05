@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>LIBERTY ELECTRONICS</title>
-
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
     <script src="https://kit.fontawesome.com/50317932e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="CSS/home3.css">
     <link href="CSS/jquerysctipttop.css" rel="stylesheet" type="text/css">
@@ -44,8 +44,8 @@
     </div>
     <!--phần sign in và regiter-->
     <div class="signin">
-        <p><a href="#"> SIGN IN</a>or<a href="#"> REGISTER </a><i class="fas fa-gift"></i>
-            <i class="fas fa-shopping-bag"></i>
+        <p><a href="#" style="margin-right:5px;"> SIGN IN</a><span>or</span><a href="#" style="margin-left:5px;"> REGISTER </a>
+            <i class="fas fa-shopping-bag"></i><i class="fas fa-gift"></i>
 
             </p>
 
@@ -56,26 +56,26 @@
 
         <img src="IMG/logo-mediamart.PNG" height="55" width="233"/></div>
     <!--danh muc menu-->
-    <div class="danh-muc">
-           <ul>
-               <li><span><a href="#">Danh mục sản phẩm</a></span>
-               <span class="exam"><span class="menu-item parent">
-                  <i class="fas fa-chevron-right"></i>
+    <div class="fixed1">
+    <div class="fixed">
+        <div class="danh-muc">
+            <ul class="ul-main">
+                <li class="you" style="border-top:1px solid #e8e8e8"><span><a class="link1" href="#">Danh mục sản phẩm</a></span>
+                 <span class="menu-item parent">
+                  <i  class="fas fa-chevron-right"></i>
                    <ul class="submenu">
                        <li><a href="#">Tivi</a></li>
                        <li><a href="#">Laptop</a></li>
                        <li><a href="#">Smartphone</a></li>
                        <li><a href="#">Kỹ thuật số</a></li>
                    </ul>
-               </p>
 
                </span>
-               </span>
-               </li>
+                </li>
 
 
-               <li><span><a href="#">Chọn theo giá tiền</a></span>
-                   <span class="menu-item parent">
+                <li class="you"><span><a class="link1" href="#">Chọn theo giá tiền</a></span>
+                    <span class="menu-item parent">
                   <i class="fas fa-chevron-right"></i>
                    <ul class="submenu">
                        <li><a href="#">5-10 triệu</a></li>
@@ -86,29 +86,33 @@
                </span>
 
 
-               </li>
-               <li><a href="#">Khuyến mại</a></li>
-               <li><a href="#">Cửa hàng</a></li>
-               <li><a href="#">Phương thức thanh toán</a></li>
-        </ul>
-    </div>
+                </li>
+                <li class="you"><a class="link1" href="#">Khuyến mại</a></li>
+                <li class="you"><a class="link1" href="#">Cửa hàng</a></li>
+                <li class="you"><a class="link1" href="#">Phương thức thanh toán</a></li>
+            </ul>
+        </div>
+        <!--day la ket thuc cua class=danh-muc-->
+
+
     <!--footer-menu-->
     <div class="footer-menu">
         <p>SUBSCRIBE TO OUR NEWSLETTER</p>
-        <div class="search-box">
-            <form class="search-form" action="get"> <input class="form-control" placeholder="search the store..." type="text">
-                <button class="btn btn-link search-btn"><i class="far fa-paper-plane"></i>
+        <div class="search-box " style="width:90%;height:50px;">
+            <form class="search-form" action="get" > <input class="form-control" placeholder="YOUR EMAIL ADDRESS" type="text" style="padding-top:20px;">
+                <button class="btn btn-link link2" style="width:50px;height:50px;"><i class="far fa-paper-plane"></i>
                 </button>
             </form>
         </div>
 
-        <p>Get the latest updates on new products and upcoming sales</p>
+        <div class="e-update"><p>Nhận bản cập nhật mới nhất về sản phẩm mới</p></div>
         <p>CONNECT WITH US</p>
-        <p><i class="fab fa-twitter"></i><i class="fab fa-facebook-square"></i><i class="fab fa-pinterest"></i>
+        <p class="fab5"><i style="margin-left:-5px;" class="fab fa-twitter"></i><i class="fab fa-facebook-square"></i><i class="fab fa-pinterest"></i>
             <i class="fab fa-youtube"></i><i class="fab fa-instagram"></i></p>
     </div>
 
-
+    </div>
+</div>
 </div>
 <div class="content">
     <!--slider-->
@@ -117,6 +121,7 @@
             <a href="#" class="next">></a> 	<!--all ways mention control class for slider anchor -->
             <a href="#" class="prev"><</a>	<!--all ways mention control class for slider anchor -->
             <ul>
+
                 <li><img src="IMG/slide01__32038.PNG" height="500" width="1022"/></li>
                 <li><img src="IMG/slide02__78707.PNG" height="500" width="1022"/></li>
             </ul>
@@ -124,9 +129,366 @@
    <!--chi tiet san pham-->
         <div class="content2">
             <div class="content2-1">
-                <img src="IMG/watch.PNG" height="504" width="502"/></div>
+
+                    <div class="img-wrapper" onmouseenter="loadmore1()" onmouseleave="loadmore2()" >
+                       <div class="inner-img"><img src="IMG/banner01.jpg" height="510" width="510"/>
+
+                       </div>
+                    </div>
             </div>
 
+            <div class="content2-2">
+                <div class="img-wrapper"  >
+                    <div class="inner-img"><img src="IMG/banner02.jpg" height="510" width="510"/>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="content2-1">
+
+                <div class="img-wrapper"  >
+                    <div class="inner-img"><img src="IMG/banner03.jpg" height="510" width="510"/>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content2-4">
+
+                <div class="img-wrapper" >
+                    <div class="inner-img"><img src="IMG/banner04.jpg" height="510" width="510"/>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <!--ket thuc slide chitiet sp-->
+        <div class="content3">
+            <div class="content3-1">
+
+                <div class="img2"><i class="fas fa-rocket fas2"></i></div>
+                <div class="content3-4">
+                    <div class="content3-41"><h4>GIAO HÀNG MIỄN PHÍ</h4></div>
+                    <div class="content3-42">
+                        <p>Miễn phí giao hàng trên toàn quốc với đơn hàng trên 1.000.000đ </p>
+                    </div>
+                </div>
+                </div>
+            <div class="content3-2">
+
+                <div class="img2"><i class="fas fa-truck fas2"></i></div>
+                <div class="content3-4">
+                    <div class="content3-41"><h4> NGÀY TRẢ LẠI MIỄN PHÍ</h4></div>
+                    <div class="content3-42">
+                        <p>Lỗi đổi mới (hoàn tiền theo quy định từ 3 - 5 ngày)</p>
+                    </div>
+
+                </div>
+                </div>
+            <div class="content3-3">
+
+                <div class="img2"><i class="fas fa-gift fas2"></i></div>
+                <div class="content3-4">
+                    <div class="content3-41"><h4>THANH TOÁN KHI GIAO HÀNG</h4></div>
+                    <div class="content3-42">
+                        <p>Ship cod toàn quốc(giảm 2% cho các hóa đơn thanh toán bằng thẻ)</p>
+                    </div>
+            </div>
+            </div>
+        </div>
+        <!--các sản phẩm nổi bật-->
+        <div class="content4">
+            <div class="title-1">
+                <p><img src="IMG/icon-fire.png" height="31" width="31"/>SẢN PHẨM NỔI BẬT</p>
+            </div>
+            <div class="HTML1">
+                <div class="exe"><img src="IMG/999-icon.png" height="20" width="90"/></div>
+                <div class="exe1">  <img src="IMG/thumb_-uSUeEu.png" height="160" width="248"/></div>
+                <div class="img1"><p>-43%</p></div>
+                <div class="text1"><p class="text1-1">SAMSUNG</p><p class="text1-2">SMART TV 4K 50"</p></div>
+                <div class="text2"><a href="#">Smart Tivi Samsung 50 inch 50NU7090, 4K UHD, HDR</a></div>
+                <div class="price"><p>11.900.000</p></div>
+                <div class="original-price"><div class="text3-1"><p>18.900.000</p></div><div class="text3-2"><img src="IMG/11-icon.png" height="26" width="90"/></div></div>
+                <div class="text4">
+                    <p class="text4-1">* 2 khuyến mại trị giá </p><p class="text4-2"> 1.050.000đ</p>
+                </div>
+                <div class="gift">
+                    <div class="title-gift">
+                        <p> Quà Tặng</p>
+                    </div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_aquamgmmcban-la-hoi-nuoc-electrolux-1600w-esi4017-wGoH94.png" height="60"
+                             width="90"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_da_duyet_tang-chan-de-may-giat-midea-450000d-zEZf3y.jpg" height="80" width="80"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_duyet_1-doi-1-trong-1-nam-Vn66wp.png" height="80" width="80"/></div>
+                </div>
+            </div>
+
+
+
+
+            <div class="HTML2">
+                <div class="exe"><img src="IMG/999-icon.png" height="20" width="90"/></div>
+                <div class="exe1">  <img src="IMG/thumb_-uSUeEu.png" height="160" width="248"/></div>
+                <div class="img1"><p>-43%</p></div>
+                <div class="text1"><p class="text1-1">SAMSUNG</p><p class="text1-2">SMART TV 4K 50"</p></div>
+                <div class="text2"><a href="#">Smart Tivi Samsung 50 inch 50NU7090, 4K UHD, HDR</a></div>
+                <div class="price"><p>11.900.000</p></div>
+                <div class="original-price"><div class="text3-1"><p>18.900.000</p></div><div class="text3-2"><img src="IMG/11-icon.png" height="26" width="90"/></div></div>
+                <div class="text4">
+                    <p class="text4-1">* 2 khuyến mại trị giá </p><p class="text4-2"> 1.050.000đ</p>
+                </div>
+                <div class="gift">
+                    <div class="title-gift">
+                        <p> Quà Tặng</p>
+                    </div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_aquamgmmcban-la-hoi-nuoc-electrolux-1600w-esi4017-wGoH94.png" height="60"
+                             width="90"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_da_duyet_tang-chan-de-may-giat-midea-450000d-zEZf3y.jpg" height="80" width="80"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_duyet_1-doi-1-trong-1-nam-Vn66wp.png" height="80" width="80"/></div>
+                </div>
+
+            </div>
+
+
+            <div class="HTML2">
+                <div class="exe"><img src="IMG/999-icon.png" height="20" width="90"/></div>
+                <div class="exe1">  <img src="IMG/thumb_-uSUeEu.png" height="160" width="248"/></div>
+                <div class="img1"><p>-43%</p></div>
+                <div class="text1"><p class="text1-1">SAMSUNG</p><p class="text1-2">SMART TV 4K 50"</p></div>
+                <div class="text2"><a href="#">Smart Tivi Samsung 50 inch 50NU7090, 4K UHD, HDR</a></div>
+                <div class="price"><p>11.900.000</p></div>
+                <div class="original-price"><div class="text3-1"><p>18.900.000</p></div><div class="text3-2"><img src="IMG/11-icon.png" height="26" width="90"/></div></div>
+                <div class="text4">
+                    <p class="text4-1">* 2 khuyến mại trị giá </p><p class="text4-2"> 1.050.000đ</p>
+                </div>
+                <div class="gift">
+                    <div class="title-gift">
+                        <p> Quà Tặng</p>
+                    </div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_aquamgmmcban-la-hoi-nuoc-electrolux-1600w-esi4017-wGoH94.png" height="60"
+                             width="90"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_da_duyet_tang-chan-de-may-giat-midea-450000d-zEZf3y.jpg" height="80" width="80"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_duyet_1-doi-1-trong-1-nam-Vn66wp.png" height="80" width="80"/></div>
+                </div>
+
+            </div>
+
+
+
+
+            <!---->
+            <div class="HTML1">
+                <div class="exe"><img src="IMG/999-icon.png" height="20" width="90"/></div>
+                <div class="exe1">  <img src="IMG/thumb_-uSUeEu.png" height="160" width="248"/></div>
+                <div class="img1"><p>-43%</p></div>
+                <div class="text1"><p class="text1-1">SAMSUNG</p><p class="text1-2">SMART TV 4K 50"</p></div>
+                <div class="text2"><a href="#">Smart Tivi Samsung 50 inch 50NU7090, 4K UHD, HDR</a></div>
+                <div class="price"><p>11.900.000</p></div>
+                <div class="original-price"><div class="text3-1"><p>18.900.000</p></div><div class="text3-2"><img src="IMG/11-icon.png" height="26" width="90"/></div></div>
+                <div class="text4">
+                    <p class="text4-1">* 2 khuyến mại trị giá </p><p class="text4-2"> 1.050.000đ</p>
+                </div>
+                <div class="gift">
+                    <div class="title-gift">
+                        <p> Quà Tặng</p>
+                    </div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_aquamgmmcban-la-hoi-nuoc-electrolux-1600w-esi4017-wGoH94.png" height="60"
+                             width="90"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_da_duyet_tang-chan-de-may-giat-midea-450000d-zEZf3y.jpg" height="80" width="80"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_duyet_1-doi-1-trong-1-nam-Vn66wp.png" height="80" width="80"/></div>
+                </div>
+            </div>
+
+
+
+
+            <div class="HTML2">
+                <div class="exe"><img src="IMG/999-icon.png" height="20" width="90"/></div>
+                <div class="exe1">  <img src="IMG/thumb_-uSUeEu.png" height="160" width="248"/></div>
+                <div class="img1"><p>-43%</p></div>
+                <div class="text1"><p class="text1-1">SAMSUNG</p><p class="text1-2">SMART TV 4K 50"</p></div>
+                <div class="text2"><a href="#">Smart Tivi Samsung 50 inch 50NU7090, 4K UHD, HDR</a></div>
+                <div class="price"><p>11.900.000</p></div>
+                <div class="original-price"><div class="text3-1"><p>18.900.000</p></div><div class="text3-2"><img src="IMG/11-icon.png" height="26" width="90"/></div></div>
+                <div class="text4">
+                    <p class="text4-1">* 2 khuyến mại trị giá </p><p class="text4-2"> 1.050.000đ</p>
+                </div>
+                <div class="gift">
+                    <div class="title-gift">
+                        <p> Quà Tặng</p>
+                    </div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_aquamgmmcban-la-hoi-nuoc-electrolux-1600w-esi4017-wGoH94.png" height="60"
+                             width="90"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_da_duyet_tang-chan-de-may-giat-midea-450000d-zEZf3y.jpg" height="80" width="80"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_duyet_1-doi-1-trong-1-nam-Vn66wp.png" height="80" width="80"/></div>
+                </div>
+
+            </div>
+
+
+            <div class="HTML2">
+                <div class="exe"><img src="IMG/999-icon.png" height="20" width="90"/></div>
+                <div class="exe1">  <img src="IMG/thumb_-uSUeEu.png" height="160" width="248"/></div>
+                <div class="img1"><p>-43%</p></div>
+                <div class="text1"><p class="text1-1">SAMSUNG</p><p class="text1-2">SMART TV 4K 50"</p></div>
+                <div class="text2"><a href="#">Smart Tivi Samsung 50 inch 50NU7090, 4K UHD, HDR</a></div>
+                <div class="price"><p>11.900.000</p></div>
+                <div class="original-price"><div class="text3-1"><p>18.900.000</p></div><div class="text3-2"><img src="IMG/11-icon.png" height="26" width="90"/></div></div>
+                <div class="text4">
+                    <p class="text4-1">* 2 khuyến mại trị giá </p><p class="text4-2"> 1.050.000đ</p>
+                </div>
+                <div class="gift">
+                    <div class="title-gift">
+                        <p> Quà Tặng</p>
+                    </div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_aquamgmmcban-la-hoi-nuoc-electrolux-1600w-esi4017-wGoH94.png" height="60"
+                             width="90"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_da_duyet_tang-chan-de-may-giat-midea-450000d-zEZf3y.jpg" height="80" width="80"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_duyet_1-doi-1-trong-1-nam-Vn66wp.png" height="80" width="80"/></div>
+                </div>
+
+            </div>
+
+            <!---->
+            <div class="title-1" style="margin-top:70px;">
+                <p><img src="IMG/icon-fire.png" height="31" width="31"/>SẢN PHẨM NỔI BẬT</p>
+            </div>
+            <div class="HTML1">
+                <div class="exe"><img src="IMG/999-icon.png" height="20" width="90"/></div>
+                <div class="exe1">  <img src="IMG/thumb_-uSUeEu.png" height="160" width="248"/></div>
+                <div class="img1"><p>-43%</p></div>
+                <div class="text1"><p class="text1-1">SAMSUNG</p><p class="text1-2">SMART TV 4K 50"</p></div>
+                <div class="text2"><a href="#">Smart Tivi Samsung 50 inch 50NU7090, 4K UHD, HDR</a></div>
+                <div class="price"><p>11.900.000</p></div>
+                <div class="original-price"><div class="text3-1"><p>18.900.000</p></div><div class="text3-2"><img src="IMG/11-icon.png" height="26" width="90"/></div></div>
+                <div class="text4">
+                    <p class="text4-1">* 2 khuyến mại trị giá </p><p class="text4-2"> 1.050.000đ</p>
+                </div>
+                <div class="gift">
+                    <div class="title-gift">
+                        <p> Quà Tặng</p>
+                    </div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_aquamgmmcban-la-hoi-nuoc-electrolux-1600w-esi4017-wGoH94.png" height="60"
+                             width="90"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_da_duyet_tang-chan-de-may-giat-midea-450000d-zEZf3y.jpg" height="80" width="80"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_duyet_1-doi-1-trong-1-nam-Vn66wp.png" height="80" width="80"/></div>
+                </div>
+            </div>
+
+
+
+
+            <div class="HTML2">
+                <div class="exe"><img src="IMG/999-icon.png" height="20" width="90"/></div>
+                <div class="exe1">  <img src="IMG/thumb_-uSUeEu.png" height="160" width="248"/></div>
+                <div class="img1"><p>-43%</p></div>
+                <div class="text1"><p class="text1-1">SAMSUNG</p><p class="text1-2">SMART TV 4K 50"</p></div>
+                <div class="text2"><a href="#">Smart Tivi Samsung 50 inch 50NU7090, 4K UHD, HDR</a></div>
+                <div class="price"><p>11.900.000</p></div>
+                <div class="original-price"><div class="text3-1"><p>18.900.000</p></div><div class="text3-2"><img src="IMG/11-icon.png" height="26" width="90"/></div></div>
+                <div class="text4">
+                    <p class="text4-1">* 2 khuyến mại trị giá </p><p class="text4-2"> 1.050.000đ</p>
+                </div>
+                <div class="gift">
+                    <div class="title-gift">
+                        <p> Quà Tặng</p>
+                    </div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_aquamgmmcban-la-hoi-nuoc-electrolux-1600w-esi4017-wGoH94.png" height="60"
+                             width="90"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_da_duyet_tang-chan-de-may-giat-midea-450000d-zEZf3y.jpg" height="80" width="80"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_duyet_1-doi-1-trong-1-nam-Vn66wp.png" height="80" width="80"/></div>
+                </div>
+
+            </div>
+
+
+            <div class="HTML2">
+                <div class="exe"><img src="IMG/999-icon.png" height="20" width="90"/></div>
+                <div class="exe1">  <img src="IMG/thumb_-uSUeEu.png" height="160" width="248"/></div>
+                <div class="img1"><p>-43%</p></div>
+                <div class="text1"><p class="text1-1">SAMSUNG</p><p class="text1-2">SMART TV 4K 50"</p></div>
+                <div class="text2"><a href="#">Smart Tivi Samsung 50 inch 50NU7090, 4K UHD, HDR</a></div>
+                <div class="price"><p>11.900.000</p></div>
+                <div class="original-price"><div class="text3-1"><p>18.900.000</p></div><div class="text3-2"><img src="IMG/11-icon.png" height="26" width="90"/></div></div>
+                <div class="text4">
+                    <p class="text4-1">* 2 khuyến mại trị giá </p><p class="text4-2"> 1.050.000đ</p>
+                </div>
+                <div class="gift">
+                    <div class="title-gift">
+                        <p> Quà Tặng</p>
+                    </div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_aquamgmmcban-la-hoi-nuoc-electrolux-1600w-esi4017-wGoH94.png" height="60"
+                             width="90"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_da_duyet_tang-chan-de-may-giat-midea-450000d-zEZf3y.jpg" height="80" width="80"/></div>
+                    <div class="list-gift">
+
+                        <img src="IMG/small_duyet_1-doi-1-trong-1-nam-Vn66wp.png" height="80" width="80"/></div>
+                </div>
+
+            </div>
+
+
+
+            <!---->
+        </div>
 
     </div>
 
@@ -154,6 +516,18 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 
+</script>
+<script>
+    $(document).ready(function(){
+        $(".content2-1").mouseenter(function(){
+            $(".overlay").show(this);
+        });
+    });
+    $(document).ready(function(){
+        $(".content2-1").mouseleave(function(){
+            $(".overlay").hide(this);
+        });
+    });
 </script>
 </body>
 </html>
