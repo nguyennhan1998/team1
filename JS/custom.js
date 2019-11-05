@@ -4,7 +4,7 @@ var z = $("#labels");
 var art = $(".art-desc");
 //var flag = true;
 
-$(".back-to-top").bind("click",function(){
+$(".back-to-top").bind("mouseenter",function(){
     $("html").animate({
         scrollTop: 0
     },200);
