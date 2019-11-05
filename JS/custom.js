@@ -10,7 +10,7 @@ $(".back-to-top").bind("click",function(){
     },200);
 });
 
-$(".menu-item.parent").bind("mouseenter",function () {
+$(".menu-item.parent").bind("click",function () {
     var li = $(this);
     var sub = li.children(".submenu");
     sub.slideDown();
