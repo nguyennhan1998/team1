@@ -10,13 +10,13 @@ $(".back-to-top").bind("click",function(){
     },200);
 });
 
-$(".menu-item.parent").bind("click",function () {
+$(".menu-item.parent").bind("mouseenter",function () {
     var li = $(this);
     var sub = li.children(".submenu");
     sub.slideDown();
 });
 
-$(".menu-item.parent").bind("click",function () {
+$(".menu-item.parent").bind("mouseleave",function () {
     var li = $(this);
     var sub = li.children(".submenu");
     sub.hide();

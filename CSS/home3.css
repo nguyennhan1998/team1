@@ -144,7 +144,7 @@ background-color:white;
     width:100%;
 }
 
-.fa-chevron-right{
+.fa-chevron-down{
     float:right;
     font-size:19px;
     color:#848484;
@@ -156,7 +156,7 @@ background-color:white;
     padding-left:14px;
     padding-top:9px;
 }
-.fa-chevron-right:hover{
+.fa-chevron-down:hover{
     background-color:#f0f0f0;
 
 }
@@ -178,6 +178,10 @@ background-color:white;
 
     color:#848484;
     text-transform: uppercase;
+}
+.link3{
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
 /*formenu */
