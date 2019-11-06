@@ -16,9 +16,9 @@
         html, body {margin: 0;padding: 0;font-family: 'Open Sans';}
         body { background-color: #fafafa; }
         h1 {text-align: center;font-weight: 300; margin-top:150px;}
-        #slider {position: relative;overflow: hidden;margin: 20px auto 0 auto;border-radius: 4px;width: 1022px;height: 500px;}
+        #slider {position: relative;overflow: hidden;margin: 20px auto 0 auto;border-radius: 4px;width: 990px;height: 500px;}
         #slider ul {position: relative;margin: 0;padding: 0;height: 200px;list-style: none;left: 0px;}
-        #slider ul li {position: relative;display: block;float: left;margin: 0;padding: 0;width: 1022px;height: 500px;background: #ccc;text-align: center;line-height: 300px;}
+        #slider ul li {position: relative;display: block;float: left;margin: 0;padding: 0;width: 990px;height: 500px;background: #ccc;text-align: center;line-height: 300px;}
         a.prev, a.next {position: absolute;top: 40%;z-index: 999;display: block;padding: 4% 3%;width: auto;height: auto;background: #2a2a2a;color: #fff;text-decoration: none;font-weight: 600;font-size: 18px;opacity: 0.2;cursor: pointer;}
         a.prev:hover, a.next:hover {opacity: 0.5;-webkit-transition: all 0.2s ease;}
         a.prev {border-radius: 0 2px 2px 0;}
@@ -35,8 +35,8 @@
 <div class="menu-li">
     <!--menu-search-->
     <div class="menu-search">
-        <div class="search-box">
-            <form class="search-form" action="get"> <input class="form-control" placeholder="search the store..." type="text">
+        <div class="search-box is1" style="background:#121542;">
+            <form class="search-form" action="get"> <input style="color:white;"   class="form-control is1" placeholder="search the store..." type="text">
                 <button class="btn btn-link search-btn"> <i class="glyphicon glyphicon-search"></i>
                 </button>
             </form>
@@ -67,7 +67,7 @@
                        <li class="link3"><a  href="#">Tivi</a></li>
                        <li class="link3"><a href="#">Laptop</a></li>
                        <li class="link3"><a  href="#">Smartphone</a></li>
-                       <li class="link3"><a  href="#">Kỹ thuật số</a></li>
+                       <li style="border-bottom: 1px solid #ccc;margin-bottom:5px;" class="link3"><a  href="#">Kỹ thuật số</a></li>
                    </ul>
 
                </span>
@@ -81,7 +81,7 @@
                        <li class="link3"><a  href="#">5-10 triệu</a></li>
                        <li class="link3"><a  href="#">10-15 triệu</a></li>
                        <li class="link3"><a  href="#">15-20 triệu</a></li>
-                       <li class="link3"><a  href="#" style="margin-bottom:20px;border-bottom:1px solid #e8e8e8;">>50 triệu</a></li>
+                       <li style="border-bottom: 1px solid #ccc;margin-bottom:5px;" class="link3"><a  href="#">>50 triệu</a></li>
                    </ul>
                </span>
 
@@ -107,8 +107,8 @@
 
         <div class="e-update"><p>Nhận bản cập nhật mới nhất về sản phẩm mới</p></div>
         <p>CONNECT WITH US</p>
-        <p class="fab5"><a href="#"><i style="margin-left:-5px;" class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-facebook-square"></i></a><a href="#"><i class="fab fa-pinterest"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a><a href="#"><i class="fab fa-instagram"></i></a></p>
+        <p class="fab5"><a href="#" style="color:#1da1f2;"><i style="margin-left:-5px;" class="fab fa-twitter" ></i></a><a href="#"><i class="fab fa-facebook-square" style="color:#4267b2;"></i></a><a href="#"><i class="fab fa-pinterest" style="color:#ce2329;"></i></a>
+            <a href="#"><i class="fab fa-youtube" style="color:#f00;"></i></a><a href="#"><i style="color:#e4653c;" class="fab fa-instagram"></i></a></p>
     </div>
 
     </div>
@@ -122,8 +122,15 @@
             <a href="#" class="prev"><</a>	<!--all ways mention control class for slider anchor -->
             <ul>
 
-                <li><img src="IMG/slide01__32038.PNG" height="500" width="1022"/></li>
-                <li><img src="IMG/slide02__78707.PNG" height="500" width="1022"/></li>
+                <li><img src="IMG/bighome-khai-truong-0311-DkRHJ6-vq.jpg" height="500" width="1000"/></li>
+                <li><img src="IMG/bighome-giai-phong-hang-ton-29MHsf-vq.jpg" height="500" width="1000"/></li>
+                <li><a href="#"><img src="IMG/bighome-back2school-rLiPZn-vq.jpg" height="500" width="1000"/></a></li>
+                <li><a href="#"><img src="IMG/bighome-may-say-ss-80p83v-vq.jpg" height="500" width="1000"/></a></li>
+                <li><a href="#"><img src="IMG/bighome-mg-midea-4Pdu30-vq.jpg" height="500" width="1000"/></a></li>
+                <li><a href="#"><img src="IMG/bighome-sony-av-t7-70HJIy-vq.jpg" height="500" width="1000"/></a></li>
+                <li><a href="#"><img src="IMG/bighome-tv-lg-thang-10-H1ZL39-vq.jpg" height="500" width="1000"/></a></li>
+                <li><a href="#"><img src="IMG/bighome-tv-samsung-seagame-Erj1uI-vq.jpg" height=500" width="1000"/></a></li>
+
             </ul>
         </div>
    <!--chi tiet san pham-->
@@ -134,8 +141,9 @@
                     <div class="inner-img">
                         <div class="img10">
 
-                            <img src="IMG/banner01.jpg" height="510" width="510"/></div>
-                        <div class="list">
+
+                            <img src="IMG/iphone-11-A9PXBK-vq.jpg" height="320" width="380"/></div>
+                            <div class="list">
 
                             <form class="search-form" action="get">
                                 <button class="btn btn-link search-btn" style="  font-family: 'Open Sans', sans-serif;">buy
@@ -143,8 +151,7 @@
                             </form>
                         </div>
                         <div class="detail">
-                            <p class="name">MEDIA MART</p>
-                            <p class="descript">san pham ban chay</p>
+
                         </div>
                     </div>
                 </div>
@@ -155,7 +162,8 @@
                     <div class="inner-img">
                         <div class="img10">
 
-                            <img src="IMG/banner02.jpg" height="510" width="510"/></div>
+
+                            <img src="IMG/dong-ho-thong-minh-Y45jMN-vq.png" height="320" width="380"/></div>
                         <div class="list">
 
                             <form class="search-form" action="get">
@@ -164,8 +172,7 @@
                             </form>
                         </div>
                         <div class="detail">
-                            <p class="name">MEDIA MART</p>
-                            <p class="descript">san pham ban chay</p>
+
                         </div>
                     </div>
                 </div>
@@ -176,7 +183,7 @@
                    <div class="inner-img">
                        <div class="img10">
 
-                           <img src="IMG/banner03.jpg" height="510" width="510"/></div>
+                           <img src="IMG/hp-JfwY8F-vq.png" height="160" width="270"/></div>
                        <div class="list">
 
                            <form class="search-form" action="get">
@@ -185,8 +192,7 @@
                            </form>
                        </div>
                        <div class="detail">
-                           <p class="name">MEDIA MART</p>
-                           <p class="descript">san pham ban chay</p>
+
                        </div>
                    </div>
                </div>
@@ -200,7 +206,7 @@
                     <div class="inner-img">
                         <div class="img10">
 
-                            <img src="IMG/banner04.jpg" height="510" width="510"/></div>
+                            <img src="IMG/homecatelap5ssd-O9BVUb-vq.png" height="160" width="270"/></div>
                         <div class="list">
 
                             <form class="search-form" action="get">
@@ -209,8 +215,7 @@
                             </form>
                         </div>
                         <div class="detail">
-                            <p class="name">MEDIA MART</p>
-                            <p class="descript">san pham ban chay</p>
+
                         </div>
                     </div>
                 </div>
@@ -443,7 +448,7 @@
 
             <!---->
             <div class="title-1" style="margin-top:70px;">
-                <p><img src="IMG/icon-fire.png" height="31" width="31"/>SẢN PHẨM NỔI BẬT</p>
+                <p><img src="IMG/icon-fire.png" height="31" width="31"/>CÁC SẢN PHẨM KHUYẾN MẠI</p>
             </div>
             <div class="HTML1">
                 <div class="exe"><img src="IMG/999-icon.png" height="20" width="90"/></div>
