@@ -276,7 +276,7 @@ body{
     padding-top:25px;
     padding-bottom:15px;
     text-align:center;
-    text-shadow-left: 5px 2px 4px red;
+    text-shadow: 5px 2px 4px grey;
 }
 .content2{
     float:left;
