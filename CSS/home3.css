@@ -759,7 +759,12 @@ height:150px;
     height: 425px;
     padding-left: 30px;
     padding-right: 30px;
+    box-sizing: border-box;
 
+}
+.HTML1:hover,.HTML2:hover{
+
+    border:1px solid grey;
 }
 
 
