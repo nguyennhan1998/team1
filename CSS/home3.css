@@ -18,7 +18,7 @@ body{
     float:left;
     width:1022px;
     border-left:1px solid #ddd;
-    height:4000px;
+
 }
 /*search box*/
 ::placeholder {
@@ -297,89 +297,6 @@ margin-left:20px;
     float:left;
     width:50%;
 }
-.content3{
-    margin-top:45px;
-    margin-left:20px;
-    margin-right:20px;
-    float:left;
-    width:96%;
-height:150px;
-
-
-}
-.content3-1 {
-    float:left;
-    width:31%;
-    height:200px;
-    border:1px solid grey;
-    background-color:white;
-}
-.content3-2 , .content3-3{
-    float:left;
-    width:31%;
-    height:200px;
-    border: 1px solid grey;
-    margin-left:33px;
-    background-color:white;
-}
-.content3-1 .img2, .content3-2 .img2 , .content3-3 .img2{
-    float:left;
-    margin-left:20px;
-    margin-top:70px;
-    width:35%;
-    height:200px;
-}
-.content3-1 .img2 .fas2, .content3-2 .img2 .fas2 , .content3-3 .img2 .fas2{
-    font-size:60px;
-    color:#ec008c;
-}
-.content3-4{
-    float:left;
-    width:50%;
-}
-.content3-41{
-    margin-top:20px;
-
-}
-.content3-41{
-    font-size:18px;
-
-    line-height:1.5;
-}
-.content3-42{
-    font-size:15px;
-    line-height:1.5;
-}
-.content4{
-    float:left;
-    width:96%;
-    height:400px;
-    margin-top:130px;
-    margin-left:20px;
-    margin-right:20px;
-
-}
-.title-1{
-    margin-bottom:10px;
-    float:left;
-    width:100%;
-    border:1px solid grey;
-    height:50px;
-    background-color:white;
-
-}
-
-.title-1 p{
-    font-size:20px;
-    margin-left:10px;
-    padding-top:10px;
-    color:red;
-}
-.title-1 p img{
-    margin-right:10px;
-}
-
-
 
 /* Other styling elements, that are not necessary for the example */
 .content2-1 .img-wrapper {
@@ -783,7 +700,94 @@ height:150px;
 .text:hover{
     height:40px;
 }
+.content3{
+    margin-top:45px;
+    margin-left:30px;
+    margin-right:20px;
+    float:left;
+    width:96%;
+    height:150px;
+
+
+}
+.content3-1 {
+    float:left;
+    width:31%;
+    height:200px;
+    border:1px solid #e8e8e8;
+    background-color:white;
+}
+.content3-2 , .content3-3{
+    float:left;
+    width:31%;
+    height:200px;
+    border: 1px solid #e8e8e8;
+    margin-left:24px;
+    background-color:white;
+}
+.content3-1 .img2, .content3-2 .img2 , .content3-3 .img2{
+    float:left;
+    margin-left:20px;
+    margin-top:70px;
+    width:35%;
+    height:200px;
+}
+.content3-1 .img2 .fas2, .content3-2 .img2 .fas2 , .content3-3 .img2 .fas2{
+    font-size:60px;
+    color:#ec008c;
+}
+.content3-4{
+    float:left;
+    width:50%;
+}
+.content3-41{
+    margin-top:20px;
+
+}
+.content3-41{
+    font-size:18px;
+
+    line-height:1.5;
+}
+.content3-42{
+    font-size:15px;
+    line-height:1.5;
+}
+.content4{
+    float:left;
+    width:96%;
+    height:400px;
+    margin-top:130px;
+    margin-right:20px;
+    margin-left:30px;
+
+}
+.title-1{
+    margin-bottom:10px;
+    float:left;
+    width:98%;
+    border:1px solid #e8e8e8;
+    height:50px;
+    background-color:white;
+
+}
+
+.title-1 p{
+    font-size:20px;
+    margin-left:10px;
+    padding-top:10px;
+    color:red;
+}
+.title-1 p img{
+    margin-right:10px;
+}
+
+
 /*add phan chi tiet cac san pham*/
+/*nam tron the content 4-1*/
+.content4-1{
+    float:left;
+}
 .HTML1 {
     float: left;
     width: 320px;
@@ -797,7 +801,7 @@ height:150px;
 }
 .HTML1:hover{
 
-    border:1px solid grey;
+    border:1px solid #e8e8e8;
 }
 
 
@@ -945,4 +949,73 @@ height:150px;
     text-decoration:none;
     font-weight:600;
 }
+/*css for foooter*/
+.footer{
+    margin-top:200px;
+    float:left;
+    width:100%;
+    height:510px;
+    background-color:white;
+}
+.footer1{
+float:left;
+    width:100%;
+    border-bottom:1px solid #e8e8e8;
+    padding-bottom:20px;
+}
+.footer1-1{
+    margin-top:15px;
+    width:25%;
+    float:left;
+}
+.fo-icon{
+    float:left;
+    font-size:30px;
+    color:#ec008c;
+    margin-left:20px;
+}
+.fo-text{
+    float:left;
+    width:70%;
+    margin-left:10px;
+    color:#ec008c;
+}
+.footer2{
+    margin-top:35px;
+    float:left;
+    width:100%;
+    height:300px;
+    border-bottom:1px solid #e8e8e8;
 
+}
+.footer2-1{
+    float:left;
+    width:23%;
+    margin-left:20px;
+}
+.fo2-text2{
+    color:#3083cd;
+    font-size:17px;
+}
+.fo2-text3{
+    font-size:14px;
+    color:black;
+}
+.fo2-text3:hover{
+    color:#3083cd;
+    text-decoration:none;
+}
+.fo3-text1{
+    float:left;
+    margin-left:20px;
+    margin-top:30px;
+    color:#ec008c;
+}
+.fo3-icon{
+    float:left;
+}
+.fo3-icondetail{
+    float:left;
+    margin-left:20px;
+    margin-top:30px;
+}

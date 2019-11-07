@@ -1,111 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!doctype html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>LIBERTY ELECTRONICS</title>
-	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
-	<script src="https://kit.fontawesome.com/50317932e7.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="CSS/check.css">
-	<link href="CSS/jquerysctipttop.css" rel="stylesheet" type="text/css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/jquery_carousel_slider.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery_carousel_slider.js"></script>
+	<script>
+		$(function(){
 
-	<script type="text/javascript" src="JS/jquery-1.11.0.min.js"></script>
+			$.getJSON("JSON/data.js",function (result){
+				var setting = {
+					subject:'Movie',
+					cardw : 145,	//page card's width .
+					cardh : 217,
+					cardn : 5,		//the number of visible page card .
+					margin : 9,		//margin between cards .
+					JSON :result
+				};
+				$('#movie').slider(setting);
+			});
 
+			$.getJSON("JSON/data.js",function (result){
+				var setting = {
+					subject:'NBA',
+					cardw : 145,	//page card's width .
+					cardh : 145,
+					cardn : 7,		//the number of visible page card .
+					margin : 9,		//margin between cards .
+					JSON :result
+				};
+				$('#nba').slider(setting);
+			});
+		});
+	</script>
+	<title>jQuery Facebook Like Carousel Demos</title>
+	<style>
+		*
+		{
+			padding: 0;
+			margin: 0;
+			font-family: Open Sans, Microsoft JhengHei, Arial, serif;
+		}
 
+		html, body
+		{
+			min-height: 100%;
+			width: 100%;
+			background-color: #E6E6E6;
+		}
+		h1 { text-align:center; margin:150px auto 30px auto;}
+	</style>
 </head>
+
 <body>
-<div class="menu-li">
-	<!--menu-search-->
-	<div class="menu-search">
-		<div class="search-box is1" style="background:#121542;">
-			<form class="search-form" action="get"> <input style="color:white;"   class="form-control is1" placeholder="search the store..." type="text">
-				<button class="btn btn-link search-btn"> <i class="glyphicon glyphicon-search"></i>
-				</button>
-			</form>
-		</div>
-	</div>
-	<!--phần sign in và regiter-->
-	<div class="signin">
-		<p><a href="#" style="margin-right:5px;"> SIGN IN</a><span>or</span><a href="#" style="margin-left:5px;"> REGISTER </a>
-			<i class="fas fa-shopping-bag"></i></i><i class="fas fa-gift"></i>
-
-		</p>
-
-	</div>
-	<!--kết thúc sign in-->
-	<!--logo-->
-	<div class="logo">
-
-		<img src="IMG/logo-mediamart.PNG" height="55" width="233"/></div>
-	<!--danh muc menu-->
-	<div class="fixed1">
-		<div class="fixed">
-			<div class="danh-muc">
-				<ul class="ul-main">
-					<li class="you" style="border-top:1px solid #e8e8e8"><span><a class="link1" href="#">Danh mục sản phẩm</a></span>
-						<span class="menu-item parent">
-                  <i class="fas fa-chevron-down"></i>
-                   <ul class="submenu">
-                       <li class="link3"><a  href="#">Tivi</a></li>
-                       <li class="link3"><a href="#">Laptop</a></li>
-                       <li class="link3"><a  href="#">Smartphone</a></li>
-                       <li style="border-bottom: 1px solid #ccc;margin-bottom:5px;" class="link3"><a  href="#">Kỹ thuật số</a></li>
-                   </ul>
-
-               </span>
-					</li>
-
-
-					<li class="you"><span><a class="link1" href="#">Chọn theo giá tiền</a></span>
-						<span class="menu-item parent">
-                  <i class="fas fa-chevron-down"></i>
-                   <ul class="submenu">
-                       <li class="link3"><a  href="#">5-10 triệu</a></li>
-                       <li class="link3"><a  href="#">10-15 triệu</a></li>
-                       <li class="link3"><a  href="#">15-20 triệu</a></li>
-                       <li style="border-bottom: 1px solid #ccc;margin-bottom:5px;" class="link3"><a  href="#">>50 triệu</a></li>
-                   </ul>
-               </span>
-
-
-					</li>
-					<li class="you"><a class="link1" href="#">Khuyến mại</a></li>
-					<li class="you"><a class="link1" href="#">Cửa hàng</a></li>
-					<li class="you"><a class="link1" href="#">Phương thức thanh toán</a></li>
-				</ul>
-			</div>
-			<!--day la ket thuc cua class=danh-muc-->
-
-
-			<!--footer-menu-->
-			<div class="footer-menu">
-				<p>SUBSCRIBE TO OUR NEWSLETTER</p>
-				<div class="search-box " style="width:90%;height:50px;">
-					<form class="search-form" action="get" > <input class="form-control" placeholder="YOUR EMAIL ADDRESS" type="text" style="padding-top:20px;">
-						<button class="btn btn-link link2" style="width:50px;height:50px;"><a href="#"><i class="far fa-paper-plane"></i></a>
-						</button>
-					</form>
-				</div>
-
-				<div class="e-update"><p>Nhận bản cập nhật mới nhất về sản phẩm mới</p></div>
-				<p>CONNECT WITH US</p>
-				<p class="fab5"><a href="#" style="color:#1da1f2;"><i style="margin-left:-5px;" class="fab fa-twitter" ></i></a><a href="#"><i class="fab fa-facebook-square" style="color:#4267b2;"></i></a><a href="#"><i class="fab fa-pinterest" style="color:#ce2329;"></i></a>
-					<a href="#"><i class="fab fa-youtube" style="color:#f00;"></i></a><a href="#"><i style="color:#e4653c;" class="fab fa-instagram"></i></a></p>
-			</div>
-
-		</div>
+<div id="jquery-script-menu">
+	<div class="jquery-script-center">
+		<ul>
+			<li><a href="https://www.jqueryscript.net/slider/Facebook-Dynamic-Carousel-Plugin-jQuery.html">Download This Plugin</a></li>
+			<li><a href="https://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+		</ul>
+		<div class="jquery-script-ads"><script type="text/javascript"><!--
+		google_ad_client = "ca-pub-2783044520727903";
+		/* jQuery_demo */
+		google_ad_slot = "2780937993";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script>
+			<script type="text/javascript"
+					src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script></div>
+		<div class="jquery-script-clear"></div>
 	</div>
 </div>
-<div class="content">
-	<div class="content1">
-		<p>Hệ thống chuỗi siêu thị điện máy mediamarkt</p>
-	</div>
-
-
-</div>
-<script type="text/javascript" src="JS/custom.js"></script>
-
+<h1>jQuery Facebook Like Carousel Demos</h1>
+<div class ='box' id="nba"></div>
+<div class ='box' id="movie"></div>
 </body>
 <script type="text/javascript">
 
@@ -121,6 +95,4 @@
 	})();
 
 </script>
-
-</body>
 </html>
