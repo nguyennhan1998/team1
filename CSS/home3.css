@@ -766,17 +766,16 @@ margin-left:20px;
     margin-bottom:10px;
     float:left;
     width:98%;
-    border:1px solid #e8e8e8;
-    height:50px;
-    background-color:white;
-
+    height:100px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKCAYAAACXDi8zAAAAGXRFW…369X8GKBAREWGEsRn//4eLowAmBhyA5c2bN0PIKIAAAwCcixkLEp+THwAAAABJRU5ErkJggg==)
 }
 
 .title-1 p{
-    font-size:20px;
+    font-size:40px;
     margin-left:10px;
     padding-top:10px;
-    color:red;
+    color:black;
+    font-weight: 400;
 }
 .title-1 p img{
     margin-right:10px;
@@ -795,15 +794,15 @@ margin-left:20px;
     float: left;
     width: 320px;
     background-color: white;
-    height: 450px;
+    height: 550px;
     padding-left: 30px;
     padding-right: 30px;
     box-sizing: border-box;
     transition:0.1ms;
+    border:1px solid #FFFFFF;
 
 }
 .HTML1:hover{
-
     border:1px solid grey;
 }
 
@@ -817,7 +816,6 @@ margin-left:20px;
     margin-left:200px;
     background-repeat: no-repeat;
     width:54px;
-    height:54px;
     position:relative;
     left:10px;
     top:-45px;
