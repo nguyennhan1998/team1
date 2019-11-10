@@ -2,139 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/nivo-slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/jquery.nivo.slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/check.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/check.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/home3.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/home3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/11-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/999-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/aqua-Yi2RT1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/banner01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/banner02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/banner03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/banner04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/beautiful.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/beko-rzNf1j.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/bighome-back2school-rLiPZn-vq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/bighome-giai-phong-hang-ton-29MHsf-vq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/bighome-khai-truong-0311-DkRHJ6-vq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/bighome-may-say-ss-80p83v-vq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/bighome-mg-midea-4Pdu30-vq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/bighome-sony-av-t7-70HJIy-vq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/bighome-tv-lg-thang-10-H1ZL39-vq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/bighome-tv-samsung-seagame-Erj1uI-vq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/dark-blue-women.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/dark-blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/delivery.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/dien-thoai-may-tinh-bang-f7yONc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/dieu-hoa-nhiet-do-wMkNoa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/dong-ho-thong-minh-Y45jMN-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/electrolux-BY18N2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/gia-dung-thiet-bi-bep-PpT51z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/gift.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/good1/black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/good1/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/good1/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/good6/dark-blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/good6/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/hitachi-732I7t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/homecate-3-ngay-km-pmh-den-3tr-KI507B-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/homecatelap5ssd-O9BVUb-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/homecatemg-midea-t9-CarP24-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/homecatemgnew3-RB7Y33-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/homecatemgnew4-SW1Gt6-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/homecatemgnewsharp1-bJTFdy-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/homengang-kmt11-1AzUyA-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/hot-deal-8G27xh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/hp-JfwY8F-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/icon-atm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/icon-cod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/icon-dropdown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/icon-fire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/icon-mastercard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/icon-visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/icon-vnpay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-11-A9PXBK-vq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/item1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/item2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/item3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/item4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/item5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/item6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/jeans-girls/dark-blue-women.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/jeans-girls/light-blue-women.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/jeans.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/jisoo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/ky-thuat-so-F6xwJJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/laptop-qUT7VQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/lg-OI70q3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/light-blue-women.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/logo-mediamart.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/may-giat-may-say-V7o6ZM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/midea-GL9r46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/new-images.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/noi-that-ghe-massage-DDDG9v.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/oppo-a9-2020-uJANAy-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/panasonic-SUd545.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/quat-mat-s2L3Sb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/right-home-may-loc-kk-o9rWy3-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/right-home-may-loc-nuoc-2fIK07-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/right-home-midea-t8-61GM9I-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-2XG2f2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/sharp-yUlNCN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/shirt-women.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slide01__32038.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slide01__32038.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slide02__78707.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slide02__78707.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/sliderformediamart1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_aquamgmmcban-la-hoi-nuoc-electrolux-1600w-esi4017-wGoH94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_da_duyet_tang-chan-de-may-giat-midea-450000d-zEZf3y.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_duyet_1-doi-1-trong-1-nam-Vn66wp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_duyetlaptopmmctuixachkemmay-kEB5o9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_duyetlaptoptang-vi-nuong-dien-kangaroo-tri-gia-690000-d-wvD4En.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_khuyenmailaptopmmcbaloacer-y8rjx1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_khuyenmailaptopmmcbalolenovo-pyzHkv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_khuyenmailaptopmmcchuotkhongday190-0C40wp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_khuyenmailaptopmmcgoiservice-FD5MkN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_smp-mm-tang-samsung-galaxy-fit-e-hoac-pin-du-phong-10000mah-chinh-hang-gdh6gZ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_smpnhap-ma-vnpayqr5-giam-ngay-5-toi-da-200000d-khi-tt-bang-vnpay-qr-chi-0tiet-xem-tai-day-32wnx9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/small_smptang-1-sim-vietnammobile-thanh-sim-rLM11Q.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/span-stylecolore3007bbinh-tam-nong-lanhspan-x4JkX8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/span-stylecolore3007btivi-tu-5565-salespan-1Zm6Bz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tang-loa-khi-mua-combo-pc-del-man-hinh-dell-425kwK-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tech.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thiet-bi-van-phong-G62OZ3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_-13vii1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_-6N3Sx0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_-T0Oork.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_-VtwpCu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_-uSUeEu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_apple-macbook-pro-2019muhr2-core-i5-JTSO2B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_dien-thoai-samsung-galaxy-a80-sma805fds-128gb-gold-34EArv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_laptop-acer-a31534c2h9nxhe3sv00-win-10-JLEDs8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_laptop-lenovo-idp-13015ikb81h7007jvn-0wil7q.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_may-anh-canon-ixus185-do-3Ca8yO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_may-anh-ky-thuat-so-powershot-canon-g9x-ii-62zX3H.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_tu-lanh-hitachi-fg450pgv8-gbk-339l-inverter-130kiJ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tivi-loa-am-thanh-Y40Kbf (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tivi-loa-am-thanh-Y40Kbf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/top-home-pc-laptop-OQEk24-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/top-home-pc-tv-t10-IN6Qu3-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/top-home-pc-vdhh-SsEl89-vq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/toshiba-TJo41W.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/truck.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tu-lanh-tu-dong-tu-mat-65D88R.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/type-discount.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/watch.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/womens-bag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check.html" beforeDir="false" afterPath="$PROJECT_DIR$/check.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home2.html" beforeDir="false" afterPath="$PROJECT_DIR$/home2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -207,7 +77,8 @@
       <workItem from="1573042408406" duration="3621000" />
       <workItem from="1573085604166" duration="38478000" />
       <workItem from="1573176999268" duration="12004000" />
-      <workItem from="1573268472098" duration="30272000" />
+      <workItem from="1573268472098" duration="34130000" />
+      <workItem from="1573345087170" duration="27801000" />
     </task>
     <servers />
   </component>
