@@ -6,9 +6,10 @@
 body{
     width:100%;
 }
-header{
+header,section,footer{
     font-family: 'Lato', sans-serif;
 }
+
 .header-menu a {
     color:white;
     font-size:12px;
@@ -401,3 +402,59 @@ header{
   }.sp1:hover .list ul li:nth-child(4){
        transition-delay:0.3s;
    }
+   /*footer*/
+footer .container-fluid:first-child{
+    height:450px;
+    background-color: #333333;
+}
+footer .container-fluid:nth-child(2){
+    height:100px;
+    background-color:#2f2f2f;
+}
+.first-footer .img-footer{
+    margin-top:30px;
+}
+.first-footer .img-footer p{
+    margin-top:30px;
+    color:#c1c1c1;
+}
+.footer-detail2{
+    margin-top:27px;
+}
+.footer-detail2 p{
+    color:white;
+    font-weight:700;
+    margin-top:10px;
+    font-size:16px;
+}
+.footer-detail2{
+    margin-top:20px;
+}
+.footer-detail2 a{
+    color:white;
+    font-size:15px;
+    font-weight:600;
+}
+.footer-detail3{
+    margin-top:10px;
+}
+.footer-detail3 a{
+    color:white;
+    font-size:15px;
+    font-weight:600;
+}
+.footer-detail3 a:hover{
+    color:#c1c1c1;
+    text-decoration: none;
+}
+.footer-detail3 p{
+    color:#c1c1c1;
+}
+.first-footer{
+    height:410px;
+}
+.second-footer{
+    height:40px;
+    border-top: 1px solid grey;
+
+}
