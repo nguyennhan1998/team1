@@ -404,15 +404,18 @@ header,section,footer{
    }
    /*footer*/
 footer .container-fluid:first-child{
+    height:80px;
+}
+footer .container-fluid:nth-child(2){
     height:410px;
     background-color: #333333;
 }
-footer .container-fluid:nth-child(2) {
+footer .container-fluid:nth-child(3) {
     height: 60px;
   background-color: #333333;
     border-top:1px solid #484848;
 }
-footer .container-fluid:nth-child(3){
+footer .container-fluid:nth-child(4){
     height:100px;
     background-color:#2f2f2f;
 }
