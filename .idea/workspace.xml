@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="" />
+    <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/shop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,15 +27,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SxYIp8y79QLgmeP7Ed2sIwJUTZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,20 +78,13 @@
       <workItem from="1573042408406" duration="3621000" />
       <workItem from="1573085604166" duration="38478000" />
       <workItem from="1573176999268" duration="12004000" />
-      <workItem from="1573268472098" duration="30272000" />
-      <workItem from="1573315423288" duration="5071000" />
-      <workItem from="1573403431339" duration="7878000" />
-      <workItem from="1573445956296" duration="8702000" />
-      <workItem from="1573617866217" duration="231000" />
+      <workItem from="1573268472098" duration="34130000" />
+      <workItem from="1573345087170" duration="46131000" />
+      <workItem from="1573436881754" duration="4190000" />
+      <workItem from="1573448472894" duration="16841000" />
+      <workItem from="1573467674568" duration="1683000" />
+      <workItem from="1573515981566" duration="35812000" />
     </task>
-    <task id="LOCAL-00001" summary="123">
-      <created>1573618144297</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1573618144297</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,10 +102,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
 </project>
