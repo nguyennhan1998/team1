@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/50317932e7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,600i,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        ul > li{margin-right:25px;font-weight:lighter;cursor:pointer}
+        li.active{border-bottom:3px solid silver;}
+
+        .item-photo{display:flex;justify-content:center;align-items:center;border-right:1px solid #f6f6f6;}
+        .menu-items{list-style-type:none;font-size:11px;display:inline-flex;margin-bottom:0px;margin-top:20px}
+        .btn-success{width:100%;border-radius:0px;}
+        .section{width:100%;margin-left:-15px;padding:2px;padding-left:15px;padding-right:15px;background:#f8f9f9}
+        .title-price{margin-top:30px;margin-bottom:0px;color:black}
+        .title-attr{margin-top:0px;margin-bottom:0px;color:black;}
+        .btn-minus{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-right:0px;}
+        .btn-plus{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-left:0px;}
+        div.section > div {width:100%;display:inline-flex;}
+        div.section > div > input {margin:0px;padding-left:5px;font-size:10px;padding-right:5px;max-width:18%;text-align:center;}
+        .attr,.attr2{cursor:pointer;margin-right:5px;height:20px;font-size:10px;padding:2px;border:1px solid gray;border-radius:2px;}
+        .attr.active,.attr2.active{ border:1px solid orange;}
+
+        @media (max-width: 426px) {
+            .container {margin-top:0px !important;}
+            .container > .row{padding:0px !important;}
+            .container > .row > .col-xs-12.col-sm-5{
+                padding-right:0px ;
+            }
+            .container > .row > .col-xs-12.col-sm-9 > div > p{
+                padding-left:0px !important;
+                padding-right:0px !important;
+            }
+            .container > .row > .col-xs-12.col-sm-9 > div > ul{
+                padding-left:10px !important;
+
+            }
+            .section{width:104%;}
+            .menu-items{padding-left:0px;}
+        }
+    </style>
+</head>
+<body>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<body>
+<div id="wrap">
+    <div id="product_layout_3">
+        <div class="product_image">
+            <div class="main_image">
+                <img src="https://i.imgur.com/YwqxBXc.jpg"/>
+            </div>
+        </div>
+        <div class="product_desc">
+            <h1>Cherry Bikini</h1>
+            <span class="price">$75</span>
+            <span class="sale_price">$50</span>
+            <span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></span>
+            <div class="product_options">
+                <div class="select">
+                    <select id="size">
+                        <option value = "1">Small</option>
+                        <option value = "2">Medium</option>
+                        <option value = "3">Large</option>
+                        <option value = "4">X-Large</option>
+                    </select>
+                </div>
+            </div>
+            <div class="buying">
+                <div class="quantity">
+                    <label for="quantity">QTY:</label>
+                    <input type="text">
+                </div>
+                <div class="cart">
+                    <a href="#" class="add">Add to Cart <i class="fa fa-shopping-cart fa-lg"></i></a>
+                </div>
+            </div>
+            <div class="other_options">
+                <span class="SKU">SKU:12345</span>
+                <span class="QTY">QTY:35</span>
+            </div>
+            <div class="description">
+                <p>Excuse me. I'll call you tonight. Right. Yeah, I think maybe you do. Wait a minute, wait a minute, Doc, are you telling me that you built a time machine out of a delorean.</P>
+                <p>Um, well it's a delorean, right? Yeah okay. Wow, ah Red, you look great. Everything looks great. 1:24, I still got time. Oh my god. No, no not again, c'mon, c'mon. Hey. Libyans. Yeah, well uh, lets keep this brain melting stuff to ourselves, okay? Yeah, yeah what are you wearing, Dave.</p>
+                <p>Hey c'mon, I had to change, you think I'm going back in that zoot suit? The old man really came through it worked. You'll find out in thirty years. Can't be. This is nuts. Aw, c'mon. Hey guys, you gotta get back in there and finish the dance. Right, and where am I gonna be?</p>
+            </div>
+            <div class="social">
+                <span class="share">Share This:</span><span class="buttons"><img src="https://i.imgur.com/M8D8rr8.jpg"/></span>
+            </div>
+        </div>
+        <div class="tabular">
+            <ul class="tabs group">
+                <li><a href="#/one">More Info</a></li>
+                <li><a href="#/two">Reviews</a></li>
+                <li><a class="active" href="#/three">Details</a></li>
+            </ul>
+            <div id="content">
+                <aside id="one">
+                    <p>Excuse me. I'll call you tonight. Right. Yeah, I think maybe you do. Wait a minute, wait a minute, Doc, are you telling me that you built a time machine out of a delorean.</p>
+                    <p>Um, well it's a delorean, right? Yeah okay. Wow, ah Red, you look great. Everything looks great. 1:24, I still got time. Oh my god. No, no not again, c'mon, c'mon. Hey. Libyans. Yeah, well uh, lets keep this brain melting stuff to ourselves, okay? Yeah, yeah what are you wearing, Dave.</p>
+                    <p>Excuse me. I'll call you tonight. Right. Yeah, I think maybe you do. Wait a minute, wait a minute, Doc, are you telling me that you built a time machine out of a delorean.</p>
+                    <p>Um, well it's a delorean, right? Yeah okay. Wow, ah Red, you look great. Everything looks great. 1:24, I still got time. Oh my god. No, no not again, c'mon, c'mon. Hey. Libyans. Yeah, well uh, lets keep this brain melting stuff to ourselves, okay? Yeah, yeah what are you wearing, Dave.</p>
+                    <p>Excuse me. I'll call you tonight. Right. Yeah, I think maybe you do. Wait a minute, wait a minute, Doc, are you telling me that you built a time machine out of a delorean.</p>
+                    <p>Um, well it's a delorean, right? Yeah okay. Wow, ah Red, you look great. Everything looks great. 1:24, I still got time. Oh my god. No, no not again, c'mon, c'mon. Hey. Libyans. Yeah, well uh, lets keep this brain melting stuff to ourselves, okay? Yeah, yeah what are you wearing, Dave.</p>
+                </aside>
+                <aside id="two">
+                    <span class="author">Marty Mcfly</span><span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></span><p>"Excuse me. I'll call you tonight. Right. Yeah, I think maybe you do. Wait a minute, wait a minute, Doc, are you telling me that you built a time machine out of a delorean.</p>
+                    <p>Um, well it's a delorean, right? Yeah okay. Wow, ah Red, you look great. Everything looks great. 1:24, I still got time. Oh my god. No, no not again, c'mon, c'mon. Hey. Libyans. Yeah, well uh, lets keep this brain melting stuff to ourselves, okay? Yeah, yeah what are you wearing, Dave.</p>
+                    <p>Hey c'mon, I had to change, you think I'm going back in that zoot suit? The old man really came through it worked. You'll find out in thirty years. Can't be. This is nuts. Aw, c'mon. Hey guys, you gotta get back in there and finish the dance. Right, and where am I gonna be?"</p>
+                    <span class="full_review"><a href="#">Read The Full Review</a></span>
+                    <span class="write_review"><a href="#">Write Your Own Review</a></span>
+                </aside>
+                <aside id="three">
+                    <div class="images">
+                        <img src="https://i.imgur.com/U28rUlR.jpg"/>
+                        <img src="https://i.imgur.com/NK3026a.jpg"/>
+                        <img src="https://i.imgur.com/w1sfKNd.jpg"/>
+                        <img src="https://i.imgur.com/xeDUcdP.jpg"/>
+                    </div>
+                    <div class="details">
+                        <p>Excuse me. I'll call you tonight. Right. Yeah, I think maybe you do. Wait a minute, wait a minute, Doc, are you telling me that you built a time machine out of a delorean.</p>
+                        <p>Um, well it's a delorean, right? Yeah okay. Wow, ah Red, you look great. Everything looks great. 1:24, I still got time. Oh my god. No, no not again, c'mon, c'mon. Hey. Libyans. Yeah, well uh, lets keep this brain melting stuff to ourselves, okay? Yeah, yeah what are you wearing, Dave</p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="row">
+        <div class="col-xs-4 item-photo">
+            <img style="max-width:100%;" src="https://ak1.ostkcdn.com/images/products/8818677/Samsung-Galaxy-S4-I337-16GB-AT-T-Unlocked-GSM-Android-Cell-Phone-85e3430e-6981-4252-a984-245862302c78_600.jpg" />
+        </div>
+        <div class="col-xs-5" style="border:0px solid gray">
+            <!-- Datos del vendedor y titulo del producto -->
+            <h3>Samsung Galaxy S4 I337 16GB 4G LTE Unlocked GSM Android Cell Phone</h3>
+            <h5 style="color:#337ab7">vendido por <a href="#">Samsung</a> · <small style="color:#337ab7">(5054 ventas)</small></h5>
+
+            <!-- Precios -->
+            <h6 class="title-price"><small>PRECIO OFERTA</small></h6>
+            <h3 style="margin-top:0px;">U$S 399</h3>
+
+            <!-- Detalles especificos del producto -->
+            <div class="section">
+                <h6 class="title-attr" style="margin-top:15px;" ><small>COLOR</small></h6>
+                <div>
+                    <div class="attr" style="width:25px;background:#5a5a5a;"></div>
+                    <div class="attr" style="width:25px;background:white;"></div>
+                </div>
+            </div>
+            <div class="section" style="padding-bottom:5px;">
+                <h6 class="title-attr"><small>CAPACIDAD</small></h6>
+                <div>
+                    <div class="attr2">16 GB</div>
+                    <div class="attr2">32 GB</div>
+                </div>
+            </div>
+            <div class="section" style="padding-bottom:20px;">
+                <h6 class="title-attr"><small>CANTIDAD</small></h6>
+                <div>
+                    <div class="btn-minus"><span class="glyphicon glyphicon-minus"></span></div>
+                    <input value="1" />
+                    <div class="btn-plus"><span class="glyphicon glyphicon-plus"></span></div>
+                </div>
+            </div>
+
+            <!-- Botones de compra -->
+            <div class="section" style="padding-bottom:20px;">
+                <button class="btn btn-success"><span style="margin-right:20px" class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Agregar al carro</button>
+                <h6><a href="#"><span class="glyphicon glyphicon-heart-empty" style="cursor:pointer;"></span> Agregar a lista de deseos</a></h6>
+            </div>
+        </div>
+
+        <div class="col-xs-9">
+            <ul class="menu-items">
+                <li class="active">Detalle del producto</li>
+                <li>Garantía</li>
+                <li>Vendedor</li>
+                <li>Envío</li>
+            </ul>
+            <div style="width:100%;border-top:1px solid silver">
+                <p style="padding:15px;">
+                    <small>
+                        Stay connected either on the phone or the Web with the Galaxy S4 I337 from Samsung. With 16 GB of memory and a 4G connection, this phone stores precious photos and video and lets you upload them to a cloud or social network at blinding-fast speed. With a 17-hour operating life from one charge, this phone allows you keep in touch even on the go.
+
+                        With its built-in photo editor, the Galaxy S4 allows you to edit photos with the touch of a finger, eliminating extraneous background items. Usable with most carriers, this smartphone is the perfect companion for work or entertainment.
+                    </small>
+                </p>
+                <small>
+                    <ul>
+                        <li>Super AMOLED capacitive touchscreen display with 16M colors</li>
+                        <li>Available on GSM, AT&T, T-Mobile and other carriers</li>
+                        <li>Compatible with GSM 850 / 900 / 1800; HSDPA 850 / 1900 / 2100 LTE; 700 MHz Class 17 / 1700 / 2100 networks</li>
+                        <li>MicroUSB and USB connectivity</li>
+                        <li>Interfaces with Wi-Fi 802.11 a/b/g/n/ac, dual band and Bluetooth</li>
+                        <li>Wi-Fi hotspot to keep other devices online when a connection is not available</li>
+                        <li>SMS, MMS, email, Push Mail, IM and RSS messaging</li>
+                        <li>Front-facing camera features autofocus, an LED flash, dual video call capability and a sharp 4128 x 3096 pixel picture</li>
+                        <li>Features 16 GB memory and 2 GB RAM</li>
+                        <li>Upgradeable Jelly Bean v4.2.2 to Jelly Bean v4.3 Android OS</li>
+                        <li>17 hours of talk time, 350 hours standby time on one charge</li>
+                        <li>Available in white or black</li>
+                        <li>Model I337</li>
+                        <li>Package includes phone, charger, battery and user manual</li>
+                        <li>Phone is 5.38 inches high x 2.75 inches wide x 0.13 inches deep and weighs a mere 4.59 oz </li>
+                    </ul>
+                </small>
+            </div>
+
+            <div class="test1" style="width:100%;border-top:1px solid silver">
+                <p style="padding:15px;">
+                    <small>
+                        Stay connected either on the phone or the Web with the Galaxy S4 I337 from Samsung. With 16 GB of memory and a 4G connection, this phone stores precious photos and video and lets you upload them to a cloud or social network at blinding-fast speed. With a 17-hour operating life from one charge, this phone allows you keep in touch even on the go.
+
+                        With its built-in photo editor, the Galaxy S4 allows you to edit photos with the touch of a finger, eliminating extraneous background items. Usable with most carriers, this smartphone is the perfect companion for work or entertainment.
+                    </small>
+                </p>
+                <small>
+                    <ul>
+                        <li>Super AMOLED capacitive touchscreen display with 16M colors</li>
+                        <li>Available on GSM, AT&T, T-Mobile and other carriers</li>
+                        <li>Compatible with GSM 850 / 900 / 1800; HSDPA 850 / 1900 / 2100 LTE; 700 MHz Class 17 / 1700 / 2100 networks</li>
+                        <li>MicroUSB and USB connectivity</li>
+                        <li>Interfaces with Wi-Fi 802.11 a/b/g/n/ac, dual band and Bluetooth</li>
+                        <li>Wi-Fi hotspot to keep other devices online when a connection is not available</li>
+                        <li>SMS, MMS, email, Push Mail, IM and RSS messaging</li>
+                        <li>Front-facing camera features autofocus, an LED flash, dual video call capability and a sharp 4128 x 3096 pixel picture</li>
+                        <li>Features 16 GB memory and 2 GB RAM</li>
+                        <li>Upgradeable Jelly Bean v4.2.2 to Jelly Bean v4.3 Android OS</li>
+                        <li>17 hours of talk time, 350 hours standby time on one charge</li>
+                        <li>Available in white or black</li>
+                        <li>Model I337</li>
+                        <li>Package includes phone, charger, battery and user manual</li>
+                        <li>Phone is 5.38 inches high x 2.75 inches wide x 0.13 inches deep and weighs a mere 4.59 oz </li>
+                    </ul>
+                </small>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        //-- Click on detail
+        $("ul.menu-items > li").on("click",function(){
+            $("ul.menu-items > li").removeClass("active");
+            $(this).addClass("active");
+            $(".test1").hide();
+        });
+
+        $(".attr,.attr2").on("click",function(){
+            var clase = $(this).attr("class");
+
+            $("." + clase).removeClass("active");
+            $(this).addClass("active");
+        });
+
+        //-- Click on QUANTITY
+        $(".btn-minus").on("click",function(){
+            var now = $(".section > div > input").val();
+            if ($.isNumeric(now)){
+                if (parseInt(now) -1 > 0){ now--;}
+                $(".section > div > input").val(now);
+            }else{
+                $(".section > div > input").val("1");
+            }
+        });
+        $(".btn-plus").on("click",function(){
+            var now = $(".section > div > input").val();
+            if ($.isNumeric(now)){
+                $(".section > div > input").val(parseInt(now)+1);
+            }else{
+                $(".section > div > input").val("1");
+            }
+        })
+    })
+</script>
+</body>
+</html>
