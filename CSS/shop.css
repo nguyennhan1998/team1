@@ -520,13 +520,12 @@ footer div:nth-child(2) ul li a:hover{
     color:#aeaeae;
 }
 #bottom-bannercover{
-    margin-top:-90px;
-    width:95%;
-    height:110px;
-    margin-left:30px;
+    width:94%;
     float:left;
     border:1px solid #f1f1f1;
     border-radius:8px;
+    margin-left:40px;
+    margin-top:-90px;
 }
 .bottom-banner{
     margin-top:30px;
@@ -593,14 +592,171 @@ footer div:nth-child(2) ul li a:hover{
     margin-top:50px;
 }
 .left-main{
-    width:25%;
+    margin-left:3%;
+    width:20%;
     float:left;
 }
-.right-main{
-    width:75%;
+.left-main .option{
     float:left;
+    width:90%;
+    background-color: #f7f7f7;
+    height:215px;
+    border-radius: 5px;
+}
+.option ul{
+    list-style: none;
+}
+.option li:first-child{
+    padding-top:20px;
+    padding-bottom:15px;
+    border-bottom: 2px solid #FFFFFF;
+}
+.option li:nth-child(2), .option li:nth-child(3){
+    padding-top:15px;
+    padding-bottom:15px;
+    border-bottom: 2px solid #FFFFFF;
+}
+.option li:nth-child(4){
+    padding-top:15px;
+}
+.option li a{
+    margin-left:20px;
+    color:#636363;
+    transition:1000ms;
+    font-size:12px;
+    font-weight:600;
+}
+.option li a:hover{
+    color:#000000;
+    text-decoration:none;
+}
+.left-main-text{
+    float:left;
+    width:100%;
+    color:black;
+    font-weight:600;
+    margin-bottom:20px;
+    margin-top:45px;
+}
+#color{
+    width:90%;
+    float:left;
+}
+#black{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    display:block;
+    float:left;
+    opacity:0.3;
+    transition:1000ms;
+}
+#purple,#yellow{
+    margin-top:10px;
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    display:block;
+    float:left;
+    opacity: 0.3;
+    transition:1000ms;
+}
+#purple{
+    background-color: purple;
+}
+#black{
+    background-color: black;
+
+}
+#blue,#gold,#green,#orange,#pink{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    display:block;
+    float:left;
+    margin-left:10px;
+    opacity:0.3;
+    transition:1000ms;
+}
+#red,#silver,#space-grey,#teal,#white{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    display:block;
+    float:left;
+    margin-left:10px;
+    opacity:0.3;
+    margin-top:10px;
+    transition:1000ms;
+}
+#red{
+    background-color: red;
+}
+#silver{
+    background-color: silver;
+}
+#space-grey{
+    background-color: grey;
+}
+#teal{
+    background-color: teal;
+}
+#white{
+    background-color: white;
+    box-shadow: 3px 5px 5px grey;
+}
+#yellow{
+    background-color: yellow;
 }
 
+#blue{
+    background-color: blue;
+}
+#gold{
+    background-color: gold;
+}
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+}
+#pink{
+    background-color: pink;
+}
+.right-main{
+    width:74%;
+    float:left;
+}
+#blue:hover,#gold:hover,#green:hover,#orange:hover,#pink:hover,#red:hover,#silver:hover,#space-grey:hover,#teal:hover,#white:hover,#purple:hover,#yellow:hover,#black:hover{
+    opacity:1;
+}
+.option2{
+    float:left;
+    width:90%;
+}
+.option2 ul{
+    list-style: none;
+}
+.option2 li{
+    margin-bottom:10px;
+}
+.option2 li a{
+    color:#a4a4a4;
+    transition: 1000ms;
+    font-size: 16px;
+}
+.option2 li span{
+    float:right;
+    color:#a4a4a4;
+    margin-right:10px;
+    font-size:12px;
+}
+.option2 li a:hover{
+    text-decoration:none;
+    color:black;
+}
+/*sanpham*/
 .sp2{
     float:left;
     margin-top:10px;
@@ -722,4 +878,70 @@ footer div:nth-child(2) ul li a:hover{
 .thumb2 img{
     max-width: 100%;
     height:auto;
+}
+/*sp4*/
+.sp4 .thumb4{
+    width:85px;
+    height:auto;
+    overflow: hidden;
+    display: block;
+}
+.thumb4 img{
+    max-width: 100%;
+    height:auto;
+}
+.sp4{
+    margin-top:10px;
+    width:100%;
+    float:left;
+    height:100px;
+}
+.sp4 div:first-child{
+    float:left;
+    width:30%;
+    height:100px;
+}
+.sp4 .nd{
+    float:left;
+    width:60%;
+    margin-left:20px;
+    height:100px;
+}
+.nd div:first-child{
+    float:left;
+    width:100%;
+    height:40px;
+}
+.nd div:first-child a{
+    color:black;
+    font-size:15px;
+    font-weight:600;
+}
+.nd div:first-child a:hover{
+    color:#717171;
+    text-decoration: none;
+}
+.nd div:nth-child(2){
+    float:left;
+    width:100%;
+    height:30px;
+}
+.nd div:nth-child(2) ul{
+    list-style: none;
+}
+.nd div:nth-child(2) li{
+    float:left;
+    color:#6990cb;
+}
+.nd div:nth-child(3){
+    float:left;
+    width: 100%;
+}
+.nd div:nth-child(3) span:first-child{
+    color:#717171;
+}
+.nd div:nth-child(3) span:nth-child(2){
+    color:#c0c0c0;
+    text-decoration: line-through;
+    margin-left:10px;
 }
