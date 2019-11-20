@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styleMap.css">
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+    <title>Hello, world!</title>
+<!--    font-->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<!--    map-->
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+</head>
+<body>
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="col" style="text-align: center">-->
+<!--            <h1>MENU</h1>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<div class="container-fluid">
+    <div class="row">
+
+        <div id="map"></div>
+    </div>
+</div>
+
+<div class="container-fluid" id="form">
+
+    <div class="row">
+
+        <div class="form-vic col-md-7">
+            <div class="hillit">
+                <h1 id="H1_1">
+                    Get
+                </h1>
+                <h6 id="H6_1">
+                    In Touch
+                </h6>
+            </div>
+            <div class="mini-formvi col-md-11">
+                <form>
+                    <div class="form-group">
+                        <label>YOUR NAME</label></br>
+                        <input type="text" class="form-control" id="text" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label >EMAIL </label></br>
+                        <input type="email" class="form-control"  placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label >SUBJECT</label></br>
+                        <input class="form-control" type="text" placeholder="">
+                    </div>
+                    <div>
+                        <label > YOURMASSAGE</label></br>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-default" id="submit">SEND</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+        <div class="address col-md-4">
+            <div  class="address-min" >
+                <div class="div-address" >
+                    <span class="SPAN_2"><span class="SPAN_3"></span></span>
+                    <h2 class="H4_4">
+                        OUR ADDRESS
+                    </h2><span class="SPAN_5"><span class="SPAN_6"></span></span>
+                </div>
+                <div class="louis-name">
+                    <h3>APPLE</h3>
+                    <h4>CONTACT</h4>
+                    <p>299 Đường Cầu Giấy, Dịch Vọng, Ba Đình, Hà Nội, Việt Nam</p>
+                    <p>Phone:0965.96.9999</p>
+                </div>
+                <div class="louis-name">
+                    <h3>SAMSUNG</h3>
+                    <h4>CONTACT</h4>
+                    <p>98 Thái Hà, Trung Liệt, Đống Đa, Hà Nội, Việt Nam</p>
+                    <p>Phone:024 3514 9540</p>
+                </div>
+               <div class="louis-name">
+                   <h2>OPENING HOURS</h2>
+                   <p>Monday to Friday: 8am to 9pm</p>
+                   <p>Saturday: 9am to 8pm</p>
+                   <p>Sunday: 12am t0 4pm</p>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col" style="text-align: center">
+            <h1> FOODTER</h1>
+        </div>
+    </div>
+</div>
+<script>
+
+    function initMap() {
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: {lat : 21.0114821,lng:105.8130865}
+        });
+        var labels = ['Apple','Samsung'];
+        var markers = locations.map(function(location, i) {
+            return new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+        });
+
+        // Add a marker clusterer to manage the markers.
+        var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+    }
+    var locations = [
+        {lat : 21.0114821,lng:105.8130865},
+        {lat:21.035187,lng :105.791349}
+
+    ]
+</script>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyBpqQNgFcsbNWQV-l50YZPFhZtz135Fs2U&callback=initMap"
+        async defer></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
