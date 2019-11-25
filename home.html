@@ -10,12 +10,12 @@
     <link rel="stylesheet" type="text/css" href="CSS/home.css">
     <link href="CSS/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/default.css"/>
-    <link rel="stylesheet" type="text/css" href="css/nivo-slider.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/default.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/nivo-slider.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script type="text/javascript" src="JS/jquery-1.11.0.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="JS/jquery.nivo.slider.js"></script>
 </head>
 <body>
 <header>
@@ -27,8 +27,8 @@
                 </div>
                 <div class="col-md-11">
                     <ul>
-                        <li class="header-menudetail"><a href="#">HOME</a></li>
-                        <li class="header-menudetail"><a href="#">CONTACT US</a></li>
+                        <li class="header-menudetail"><a href="home.html">HOME</a></li>
+                        <li class="header-menudetail"><a href="map.html">CONTACT US</a></li>
                         <li class="header-menudetail"><a href="#">ABOUT US</a></li>
                     </ul>
                 </div>
@@ -60,8 +60,8 @@
         <div class="col-md-2"></div>
         <div class="col-md-4 first-searchbox">
             <div class="search-box">
-                <form class="search-form" action="get"> <input style="font-size:17px; font-weight:400;" class="form-control" placeholder="Search for product ..." type="text">
-                    <button class="btn btn-link search-btn"> <i style="font-size:20px;" class="glyphicon glyphicon-search"></i>
+                <form class="search-form" action="#" method="get"> <input style="font-size:17px; font-weight:400;" class="form-control search_input" placeholder="Search for product ..." type="text">
+                    <button class="btn btn-link search-btn search_brand"> <i style="font-size:20px;" class="glyphicon glyphicon-search"></i>
                     </button>
                 </form>
             </div>
@@ -84,15 +84,15 @@
             <div class="col-md-8">
                 <ul class="menu">
                     <li class="menu-item parent" style="padding-top:22px;">
-                        <a class="li" href="#">HOME</a>
+                        <a class="li" href="home.html">HOME</a>
                     </li>
                     <li class="menu-item parent">
                         <a class="li" href="#">SHOP</a> <i class="fas fa-chevron-down"></i>
                         <ul class="submenu">
-                            <li class="li1"  style="width:150px;"><a href="#">LAPTOP AND MAC</a></li>
-                            <li class="li1"><a href="#">TIVI</a></li>
-                            <li class="li1"><a href="#">SMARTPHONE</a></li>
-                            <li class="li1"><a href="#">WATCH</a></li>
+                            <li class="li1"  style="width:150px;"><a href="shoplaptop.html">LAPTOP AND MAC</a></li>
+                            <li class="li1"><a href="shoptv.html">TIVI</a></li>
+                            <li class="li1"><a href="shop-smarphone.html">SMARTPHONE</a></li>
+                            <li class="li1"><a href="shop-smartwatch.html">WATCH</a></li>
                         </ul>
                     </li>
                     <li class="menu-item parent">
@@ -101,10 +101,10 @@
                             <li class="li2">
                                 <ul>
                                     <li><a href="#">SMARTPHONE</a></li>
-                                    <li><a href="#">Galaxy S</a></li>
-                                    <li><a href="#">Galaxy Note</a></li>
-                                    <li><a href="#">Galaxy A Series</a></li>
-                                    <li><a href="#">All</a></li>
+                                    <li><a href="http://localhost:63342/LIBETY%20ELECTRONIC/detail.html?id=22"> Galaxy S10+</a></li>
+                                    <li><a href="http://localhost:63342/LIBETY%20ELECTRONIC/detail.html?id=17">Galaxy Note 10+</a></li>
+                                    <li><a href="http://localhost:63342/LIBETY%20ELECTRONIC/detail.html?id=18">Galaxy A10s</a></li>
+                                    <li><a href="shop-smarphone.html">All</a></li>
                                 </ul>
                             </li>
                             <li class="li2">
@@ -178,7 +178,7 @@
                         </ul>
                     </li>
                     <li class="menu-item parent" style="padding-top:22px;">
-                        <a class="li" href="#">BLOG</a>
+                        <a class="li" href="blog1.html">BLOG</a>
                     </li>
                 </ul>
             </div>
@@ -189,11 +189,9 @@
     </div>
         <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
-
-                <img src="IMG/slider1.PNG"/>
+              <!-- <img src="IMG/slider1.PNG"/>
                 <img src="IMG/slider2.PNG"/>
-
-                <img src="IMG/slider3.PNG"/>
+                <img src="IMG/slider3.PNG"/>-->
             </div>
         </div>
     <div class="container-fluid img9" style="margin-top:-20px;">
@@ -245,391 +243,225 @@
     </div>
 </header>
 <section>
-<div class="container-fluid" style="margin-top:50px;">
+<div style="margin-top:50px;">
+    <div style="font-size:18px;font-weight: 700;margin-bottom: 30px;width:100%;"><p style="margin-left:50px;">FEATURE PRODUCT</p></div>
     <div class="sp">
-        <!---->
-        <div class="sp1">
-            <div><a href="#" class="thumb"><img src="IMG/brown-bear-cushion.jpg" height="298" width="298"/></a></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-        <!---->
-        <div class="sp1">
-            <div><a href="#" class="thumb"><img src="IMG/the-adventure-begins-framed-poster.jpg" height="400"
-                                                width="400"/></a></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-        <!---->
-        <div class="sp1">
-            <div><a href="#" class="thumb"><img src="IMG/today-is-a-good-day-framed-poster.jpg" height="400"
-                                                width="400"/></a></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-        <!---->
-        <div class="sp1">
-            <div><a href="#" class="thumb"><img src="IMG/mug-the-adventure-begins.jpg" height="400" width="400"/></a></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-    </div>
-    <div class="sp">
-        <!---->
-        <div class="sp1">
-            <div><a href="#" class="thumb"><img src="IMG/brown-bear-cushion.jpg" height="298" width="298"/></a></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-        <!---->
-        <div class="sp1">
-            <div><a href="#" class="thumb"><img src="IMG/the-adventure-begins-framed-poster.jpg" height="400"
-                                                width="400"/></a></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-        <!---->
-        <div class="sp1">
-            <div><a href="#" class="thumb"><img src="IMG/today-is-a-good-day-framed-poster.jpg" height="400"
-                                                width="400"/></a></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-        <!---->
-        <div class="sp1">
-            <div><a href="#" class="thumb"><img src="IMG/mug-the-adventure-begins.jpg" height="400" width="400"/></a></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-    </div>
-    <div class="sp">
-        <!---->
-        <div class="sp1">
-            <div><a href="#" class="thumb"><img src="IMG/mug-today-is-a-good-day.jpg" height="400" width="400"/></a></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-        <!---->
-        <div class="sp1">
-            <div><img src="IMG/brown-bear-cushion.jpg" height="298" width="298"/></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-        <!---->
-        <div class="sp1">
-            <div><img src="IMG/brown-bear-cushion.jpg" height="298" width="298"/></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-        <!---->
-        <div class="sp1">
-            <div><img src="IMG/brown-bear-cushion.jpg" height="298" width="298"/></div>
-            <div>
-                <p>NEW</p>
-            </div>
-            <div>
-                <a href="#">Samsung galaxy s6</a>
-            </div>
-            <div>
-                <p><span>$99.00 - $199.00</span></p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
-                    <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                    <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
-                    <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                </ul>
-            </div>
-        </div>
-        <!---->
-    </div>
+                <div class="sp-dt">
 
+                </div>
+    </div>
+    <div class="top-smartphone"  style="width:100%;">
+        <div class="img-home1">
+            <a href="#" class="thumb-img-home1"><img src="IMG/top-smartphone.png" height="1182" width="1182"/></a></div>
+        <div class="right-topsmartphone">
+            <div class="text">
+                <h1>TOP SMARTPHONE</h1>
+                <h6> WOODSTOCK CHOICE</h6>
+            </div>
+            <div class="add-phone">
+               <!-- <div class="sp3">
+                    <div class=img-sp3><a href="#" class="thumb3"><img src="IMG/the-adventure-begins-framed-poster.jpg" height="400" width="400"></a></div>
+                    <div>
+                        <p>NEW</p>
+                    </div>
+                    <div>
+                        <a href="#">Samsung galaxy s6</a>
+                    </div>
+                    <div>
+                        <p><span>$99.00 - $199.00</span></p>
+                    </div>
+                    <div class="list3">
+                        <ul>
+                            <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart" aria-hidden="true"></i></a></li>
+                            <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus" aria-hidden="true"></i></a></li>
+                            <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt" aria-hidden="true"></i></a></li>
+                            <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sp3">
+                    <div><a href="#" class="thumb3"><img src="IMG/the-adventure-begins-framed-poster.jpg" height="400" width="400"></a></div>
+                    <div>
+                        <p>NEW</p>
+                    </div>
+                    <div>
+                        <a href="#">Samsung galaxy s6</a>
+                    </div>
+                    <div>
+                        <p><span>$99.00 - $199.00</span></p>
+                    </div>
+                    <div class="list3">
+                        <ul>
+                            <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart" aria-hidden="true"></i></a></li>
+                            <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus" aria-hidden="true"></i></a></li>
+                            <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt" aria-hidden="true"></i></a></li>
+                            <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sp3">
+                    <div><a href="#" class="thumb3"><img src="IMG/the-adventure-begins-framed-poster.jpg" height="400" width="400"></a></div>
+                    <div>
+                        <p>NEW</p>
+                    </div>
+                    <div>
+                        <a href="#">Samsung galaxy s6</a>
+                    </div>
+                    <div>
+                        <p><span>$99.00 - $199.00</span></p>
+                    </div>
+                    <div class="list3">
+                        <ul>
+                            <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart" aria-hidden="true"></i></a></li>
+                            <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus" aria-hidden="true"></i></a></li>
+                            <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt" aria-hidden="true"></i></a></li>
+                            <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+            <div class="shop-all-computer">
+                <span><a href="shop-smarphone.html">SHOP ALL COMPUTER</a></span>
+            </div>
+        </div>
+
+    </div>
+    <div id="img-home2">
+        <div id="img-home3"><a href="#" id="img-thumb1"><img src="IMG/home-block-bg-3.jpg" height="626" width="1000"/></a></div>
+        <div id="img-home4"><a href="#" id="img-thumb2"><img src="IMG/home-block-bg-4.jpg" height="1013" width="800"/></a></div>
+        <div id="img-home5"><a href="#" id="img-thumb3"><img src="IMG/home-block-bg-5.jpg" height="1013" width="800"/></a></div>
+    </div>
+    <div id="top-computer">
+        <div id="top-computer-left">
+            <div class="text">
+                <h1>TOP COMPUTER</h1>
+                <h6> WOODSTOCK CHOICE</h6>
+            </div>
+            <div class="add-laptop"></div>
+           <!-- <div class="sp3">
+                <div><a href="#" class="thumb3"><img src="IMG/the-adventure-begins-framed-poster.jpg" height="400" width="400"></a></div>
+                <div>
+                    <p>NEW</p>
+                </div>
+                <div>
+                    <a href="#">Samsung galaxy s6</a>
+                </div>
+                <div>
+                    <p><span>$99.00 - $199.00</span></p>
+                </div>
+                <div class="list3">
+                    <ul>
+                        <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart" aria-hidden="true"></i></a></li>
+                        <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus" aria-hidden="true"></i></a></li>
+                        <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt" aria-hidden="true"></i></a></li>
+                        <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sp3">
+                <div><a href="#" class="thumb3"><img src="IMG/the-adventure-begins-framed-poster.jpg" height="400" width="400"></a></div>
+                <div>
+                    <p>NEW</p>
+                </div>
+                <div>
+                    <a href="#">Samsung galaxy s6</a>
+                </div>
+                <div>
+                    <p><span>$99.00 - $199.00</span></p>
+                </div>
+                <div class="list3">
+                    <ul>
+                        <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart" aria-hidden="true"></i></a></li>
+                        <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus" aria-hidden="true"></i></a></li>
+                        <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt" aria-hidden="true"></i></a></li>
+                        <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sp3">
+                <div><a href="#" class="thumb3"><img src="IMG/the-adventure-begins-framed-poster.jpg" height="400" width="400"></a></div>
+                <div>
+                    <p>NEW</p>
+                </div>
+                <div>
+                    <a href="#">Samsung galaxy s6</a>
+                </div>
+                <div>
+                    <p><span>$99.00 - $199.00</span></p>
+                </div>
+                <div class="list3">
+                    <ul>
+                        <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart" aria-hidden="true"></i></a></li>
+                        <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus" aria-hidden="true"></i></a></li>
+                        <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt" aria-hidden="true"></i></a></li>
+                        <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                        <li><i class="fas fa-star" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>-->
+            <div class="shop-all-computer" style="margin-left:460px;">
+                <span><a href="shoplaptop.html">SHOP ALL COMPUTER</a></span>
+            </div>
+        </div>
+        <div id="top-computer-right"><a href="#" id="img-thumb4"><img src="IMG/home-block-bg-1.jpg" height="1050" width="1200"/></a></div>
+    </div>
 </div>
+
+    <div class="container-fluid">
+    </div>
 </section>
 <footer>
     <div class="container-fluid">
@@ -840,7 +672,7 @@
     <div class="container-fluid">
         <div class="col-md-12 third-footer">
             <div class="col-md-7">
-                <p><span>© 2019 - Woodstock Woocommerce Theme. Created by</span><span><a href="#">TemashDesign</a></span></p>
+                <p><span>© 2019 - Woodstock Woocommerce Electronic. Created by</span><span><a href="#">Team1Design</a></span></p>
             </div>
             <div class="col-md-5">
 
@@ -848,12 +680,179 @@
         </div>
     </div>
 </footer>
+<a class="back-to-top">Back to top</a>
 <script type="text/javascript">
-    // $(document).ready(function() {
-    $('#slider').nivoSlider();
-    //  });
+   $(document).ready(function() {
+   // $('#slider').nivoSlider();
+    });
 </script>
 <script type="text/javascript" src="JS/custom.js">
+</script>
+<script type="text/javascript">
+    $.ajax({
+        url:"https://libertyelectronic-nodejs.herokuapp.com/api/home",
+        method:"GET",
+        success:function (result) {
+            var data=result.slide;
+            for(i=0;i<data.length;i++){
+                var new_html="<img src=\""+data[i].slider_img +
+                    "\"/>";
+                $(".nivoSlider").append(new_html);
+            }
+            $('#slider').nivoSlider();
+
+        }
+    })
+</script>
+<script type="text/javascript">
+  $.ajax({
+        url:"https://libertyelectronic-nodejs.herokuapp.com/api/home",
+        method: "GET",
+        success:function (result) {
+            var data1=result.product;
+        for(i=0;i<=data1.length;i++){
+                var new_html="        <div class=\"sp1\">\n" +
+                    "            <div class=\"img-sp1\"><a href=\""+data1[i].link +
+                    "\" class=\"thumb\"><img src=\""+data1[i].images +
+                    "\" height=\"600\" width=\"600\"></a></div>\n" +
+                    "            <div>\n" +
+                    "                <p>NEW</p>\n" +
+                    "            </div>\n" +
+                    "            <div>\n" +
+                    "                <a href=\""+data1[i].link +
+                    "\">" +data1[i].ten_mat_hang+
+                    "</a>\n" +
+                    "            </div>\n" +
+                    "            <div>\n" +
+                    "                <p><span>$" +data1[i].gia_ban+
+                    " - $" +data1[i].gia_goc+
+                    "</span></p>\n" +
+                    "            </div>\n" +
+                    "            <div class=\"list\">\n" +
+                    "                <ul>\n" +
+                    "                    <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                    <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                    <li title=\"QUCK VIEW\"><a href=\""+data1[i].link +
+                    "\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                    <li><a title=\"ADD TO COMPARE\" href=\""+data1[i].link +
+                    "\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                </ul>\n" +
+                    "            </div>\n" +
+                    "            <div>\n" +
+                    "                <ul>\n" +
+                    "                    <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                    <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                    <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                    <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                    <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                </ul>\n" +
+                    "            </div>\n" +
+                    "        </div>";
+
+                $(".sp-dt").append(new_html);
+            };
+        }
+    });
+</script>
+<script type="text/javascript">
+    $.ajax({
+        url:"https://libertyelectronic-nodejs.herokuapp.com/api/home",
+        method: "GET",
+        success:function (result) {
+            var data2=result.phone;
+            for(var i=0;i<=data2.length;i++){
+                var new_html1="<div class=\"sp3\">\n" +
+                    "                    <div class=img-sp3><a href=\""+data2[i].link +
+                    "\" class=\"thumb3\"><img src=\""+data2[i].images +
+                    "\" height=\"400\" width=\"400\"></a></div>\n" +
+                    "                    <div>\n" +
+                    "                        <p>NEW</p>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <a href=\""+data2[i].link +
+                    "\">" +data2[i].ten_mat_hang+
+                    "</a>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <p><span>$" +data2[i].gia_ban+
+                    " - $" +data2[i].gia_goc+
+                    "</span></p>\n" +
+                    "                    </div>\n" +
+                    "                    <div class=\"list3\">\n" +
+                    "                        <ul>\n" +
+                    "                            <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li title=\"QUCK VIEW\"><a href=\""+data2[i].link +
+                    "\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li><a title=\"ADD TO COMPARE\" href=\""+data2[i].link +
+                    "\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                        </ul>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <ul>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                        </ul>\n" +
+                    "                    </div>\n" +
+                    "                </div>";
+                $(".add-phone").append(new_html1);
+            };
+        }
+
+    });
+</script>
+<script type="text/javascript">
+    $.ajax({
+        url:"https://libertyelectronic-nodejs.herokuapp.com/api/home",
+        method: "GET",
+        success:function (result) {
+            var data2=result.laptop;
+            for(var i=0;i<=data2.length;i++){
+                var new_html1="<div class=\"sp4\">\n" +
+                    "                    <div class=img-sp4><a href=\""+data2[i].link +
+                    "\" class=\"thumb4\"><img src=\""+data2[i].images +
+                    "\" height=\"400\" width=\"400\"></a></div>\n" +
+                    "                    <div>\n" +
+                    "                        <p>NEW</p>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <a href=\""+data2[i].link +
+                    "\">" +data2[i].ten_mat_hang+
+                    "</a>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <p><span>$" +data2[i].gia_ban+
+                    " - $" +data2[i].gia_goc+
+                    "</span></p>\n" +
+                    "                    </div>\n" +
+                    "                    <div class=\"list4\">\n" +
+                    "                        <ul>\n" +
+                    "                            <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li title=\"QUCK VIEW\"><a href=\""+data2[i].link +
+                    "\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li><a title=\"ADD TO COMPARE\" href=\""+data2[i].link +
+                    "\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                        </ul>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <ul>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                        </ul>\n" +
+                    "                    </div>\n" +
+                    "                </div>";
+                $(".add-laptop").append(new_html1);
+            };
+        }
+
+    });
 </script>
 </body>
 </html>

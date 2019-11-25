@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DETAIL</title>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/50317932e7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,600i,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/chitietsanpham.css">
+    <link href="CSS/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="JS/jquery-1.11.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container-fluid" style="background-color: #333333;height:40px;">
+        <div class="row">
+            <div class="col-md-4 header-menu">
+                <div class="col-md-1">
+
+                </div>
+                <div class="col-md-11">
+                    <ul>
+                        <li class="header-menudetail"><a href="home.html">HOME</a></li>
+                        <li class="header-menudetail"><a href="map.html">CONTACT US</a></li>
+                        <li class="header-menudetail"><a href="#">ABOUT US</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-3 header-menu">
+                <div class="col-md-6 header-menudetail">
+                    <i style="color:white;" class="fas fa-sign-in-alt"></i>
+                    <a href="#">
+                        LOGIN/REGISTER
+                    </a>
+                </div>
+                <div class="col-md-5 header-menudetail">
+                    <i style="color:white;" class="far fa-heart"></i>
+                    <a href="#">WISHLIST</a>
+                </div>
+            </div>
+            <div class="col-md-1 header-icon">
+                <a class="header-icon1" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="header-icon1" href="#"><i class="fab fa-facebook"></i></a>
+                <a class="header-icon1" href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </div><!--ket thuc container-fluid-->
+    <div class="container-fluid" style="height:140px;border-bottom:1px solid #f5f5f5;">
+        <div class="col-md-3 logo">
+            <a href="home.html"><img src="IMG/logo.png" height="75" width="247"/></a>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4 first-searchbox">
+            <div class="search-box">
+                <form class="search-form" action="get"> <input style="font-size:17px; font-weight:400;" class="form-control" placeholder="Search for product ..." type="text">
+                    <button class="btn btn-link search-btn"> <i style="font-size:20px;" class="glyphicon glyphicon-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="notation">
+                <i class="fas fa-headphones"></i>
+                <div class="customer-support">
+                    <p style="font-size:12px;">Customer Support</p>
+                    <p style="font-size:15px; margin-top:-10px;font-weight:600;">1-800-123-45-67</p>
+                </div><i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="bag">
+                <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row menu-main">
+            <div class="col-md-8">
+                <ul class="menu">
+                    <li class="menu-item parent" style="padding-top:22px;">
+                        <a class="li" href="home.html">HOME</a>
+                    </li>
+                    <li class="menu-item parent">
+                        <a class="li" href="#">SHOP</a> <i class="fas fa-chevron-down"></i>
+                        <ul class="submenu">
+                            <li class="li1"  style="width:150px;"><a href="#">LAPTOP AND MAC</a></li>
+                            <li class="li1"><a href="#">TIVI</a></li>
+                            <li class="li1"><a href="#">SMARTPHONE</a></li>
+                            <li class="li1"><a href="#">WATCH</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item parent">
+                        <a class="li" href="#">SAMSUNG</a> <i class="fas fa-chevron-down"></i>
+                        <ul class="submenu" style="width:700px;">
+                            <li class="li2">
+                                <ul>
+                                    <li><a href="#">SMARTPHONE</a></li>
+                                    <li><a href="#">Galaxy S</a></li>
+                                    <li><a href="#">Galaxy Note</a></li>
+                                    <li><a href="#">Galaxy A Series</a></li>
+                                    <li><a href="#">All</a></li>
+                                </ul>
+                            </li>
+                            <li class="li2">
+                                <ul>
+                                    <li><a href="#">TV</a></li>
+                                    <li><a href="#">QLED 8K/4K TV</a></li>
+                                    <li><a href="#">Premium UHD 4K TV</a></li>
+                                    <li><a href="#">Full HD & HD TV</a></li>
+                                    <li><a href="#">All</a></li>
+                                </ul>
+                            </li>
+                            <li class="li2">
+                                <ul>
+                                    <li><a href="#">LAPTOP AND IPAD</a></li>
+                                    <li><a href="#">Galaxy Tab S</a></li>
+                                    <li><a href="#">Galaxy Tab A</a></li>
+                                    <li><a href="#">All</a></li>
+                                </ul>
+                            </li>
+                            <li class="li2">
+                                <ul>
+                                    <li><a href="#">WATCH</a></li>
+                                    <li><a href="#">Galaxy Watch Active2</a></li>
+                                    <li><a href="#">Galaxy Fit</a></li>
+                                    <li><a href="#">Gear Fit2 Pro</a></li>
+                                    <li><a href="#">All</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item parent">
+                        <a class="li" href="#">APPLE</a> <i class="fas fa-chevron-down"></i>
+                        <ul class="submenu" style="width:700px;">
+                            <li class="li2">
+                                <ul>
+                                    <li><a href="#">IPHONE</a></li>
+                                    <li><a href="#">iPhone 11 Pro</a></li>
+                                    <li><a href="#">iPhone 11</a></li>
+                                    <li><a href="#">iPhone XR</a></li>
+                                    <li><a href="#">All</a></li>
+                                </ul>
+                            <li class="li2">
+                                <ul>
+                                    <li><a href="#">MAC & IPAD</a></li>
+                                    <li><a href="#">MacBook Air</a></li>
+                                    <li><a href="#">Mac Pro</a></li>
+                                    <li><a href="#">iMac</a></li>
+                                    <li><a href="#">All</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="li2">
+                                <ul>
+                                    <li><a href="#">WATCH</a></li>
+                                    <li><a href="#">Apple Watch Series 5</a></li>
+                                    <li><a href="#">Apple Watch Nike</a></li>
+                                    <li><a href="#">Apple Watch Series 3</a></li>
+                                    <li><a href="#">All</a></li>
+                                </ul>
+                            </li>
+                            <li class="li2">
+                                <ul>
+                                    <li><a href="#">TV</a></li>
+                                    <li><a href="#">Apple TV+</a></li>
+                                    <li><a href="#">Apple TV 4K</a></li>
+                                    <li><a href="#">Apple TV HD</a></li>
+                                    <li><a href="#">All</a></li>
+                                </ul>
+                            </li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item parent" style="padding-top:22px;">
+                        <a class="li" href="blog1.html">BLOG</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 anh">
+                <!--<div class="img-detail"><img src="IMG/iphone-11-red-600x600.jpg" height="600" width="600"/>
+                </div>-->
+            </div>
+            <div class="col-md-5 content">
+                <div class="add-detail">
+                   <!-- <p style="width:85%;"><a href="#">WOODSTOCKS ELECTRONICS </a><a href="#"> / OUR SHOP </a><a href="#"> / SMARTPHONE</a><a href="#"> / IPHONE 11 PRO MAX</a></p>
+                    <h3>iPhone 11 64GB</h3>
+                    <div class="star-detail">
+                        <ul>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="price-detail"><span>$999.54</span><span>$1000.00</span></div>
+                    <div id="demo"><p>A transformative triple‑camera system that adds tons of capability without complexity. An
+                        unprecedented leap in battery life.</p></div>
+                    <div class="detail-card">
+                        <div class="btn_wrap">
+                            <span class="share">Share</span>
+                            <div class="containers">
+                                <a href="#"> <i class="fab fa-facebook-f icon-detail"></i></a>
+                                <i class="fab fa-twitter icon-detail"></i>
+                                <i class="fab fa-instagram icon-detail"></i>
+                                <i class="fab fa-github icon-detail"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <form>
+                                <button>add to card</button>
+                            </form>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col-md-3 search-box">
+                <div class="col-md-12 search-container">
+                    <input type="text" placeholder="Search.." name="     Search"
+                           style="margin-left:-15px;width:100%; height: 50px;border-radius: 5px; border: 1px solid #f5f5f5;background-color:#f5f5f5;margin-bottom:20px;padding-left:20px;">
+                </div>
+                <div class="ben_phai" style="line-height: 30px;padding-top: 30px">
+
+                    <img src="IMG/shipping_icon.png" height="39" width="39"/>
+                    <h8> FREE SHIPPING</h8>
+                    <br>
+                    <p class="nho">Free shipping on all orders over $99.</p>
+
+                    <img src="IMG/shipping_icon2.png" height="39" width="39"/>
+                    <h8> MONEY BACK GUARANTEE</h8>
+                    <br>
+                    <p class="nho">100% money back guarantee.
+                    </p>
+                    <img src="IMG/shipping_icon3.png" height="39" width="39"/>
+                    <h8>ONLINE SUPPORT 24/7</h8>
+                    <p>Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid" id="tabs">
+        <div class="col-md-9">
+            <div class="col-md-12">
+                <ul class="nav nav-tabs" style="padding: 50px 100px 30px">
+                    <li style="width: 30%"><a href="#/one" style="font-size: 25px">Desription</a></li>
+                    <li style="width: 50%"><a href="#/two" style="font-size: 25px"> Additional information</a></li>
+                </ul>
+                <div id="content" style="line-height: 50px; font-size: 12px">
+                    <!--<aside id="one">
+                        <h6>
+                            Pro camera system
+                            We’ve three‑upped ourselves.</h6>
+                        <p>A transformative triple‑camera system that adds tons of capability without complexity. An
+                            unprecedented leap in battery life. And a mind‑blowing chip that doubles down on machine
+                            learning and pushes the boundaries of what a smartphone can do. Welcome to the first iPhone
+                            powerful enough to be called Pro.</p>
+                        <h6>4K video
+                            Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it</h6>
+                        <p>iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and
+                            smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range
+                            and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four
+                            times more scene and powerful new editing tools to play with</p>
+
+                    </aside>
+                    <aside id="two" style="display: none">
+                        <h5>CPU</h5>
+                        <p> Apple A13 Bionic 6 nhân</p>
+                        <h5>DISPLAY</h5>
+                        <p>OLED, 6.5", Super Retina XDR</p>
+                        <h5>STORAGE
+                        </h5><p>256 GB</p>
+                        <h5>POWER</h5><p>	3969 mAh</p>
+
+                    </aside>-->
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-3">
+            <div style="margin-bottom:40px;margin-top:90px;"><h3>recent reviews</h3></div>
+         <div class="sp4">
+                <div><a class="thumb4" href="#"><img src="IMG/iphone-11-pro-max-512gb-gold-600x600.jpg" height="600"
+                                                     width="600"/></a>
+                </div>
+                <div class="nd">
+                    <div> <a href="#">iPhone 11 Pro Max</a></div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div><span>$2000.00</span> <span>$2050.00</span></div>
+                </div>
+            </div>
+            <div class="sp4">
+                <div><a class="thumb4" href="#"><img src="IMG/sieu-pham-galaxy-s-moi-2-512gb-black-600x600.jpg"
+                                                     height="600" width="600"/></a>
+                </div>
+                <div class="nd">
+                    <div> <a href="#">Samsung Galaxy S10+</a></div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div><span>$1317.72</span> <span>$1350.00</span></div>
+                </div>
+            </div>
+            <div class="sp4">
+                <div><a class="thumb4" href="#"><img src="IMG/samsung-galaxy-note-9-black-600x600.jpg" height="600"
+                                                     width="600"/></a>
+                </div>
+                <div class="nd">
+                    <div> <a href="#">Samsung Galaxy Note 9</a></div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div><span>$749.00</span> <span>$900.00</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="margin-top:40px; margin-bottom:50px;">
+        <div class="col-md-12">
+            <h3>RELATED PRODUCTS</h3>
+        </div>
+        <div class="col-md-12 related-product" style="overflow: hidden;">
+            <!--<div class="sp2">
+                <div  class="img-sp2"><a href="#" class="thumb2"><img src="IMG/brown-bear-cushion.jpg" height="298" width="298"/></a></div>
+                <div>
+                    <p>NEW</p>
+                </div>
+                <div>
+                    <a href="#">Samsung galaxy s6</a>
+                </div>
+                <div>
+                    <p><span>$99.00 - $199.00</span></p>
+                </div>
+                <div class="list2">
+                    <ul>
+                        <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
+                        <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
+                        <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
+                        <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sp2">
+                <div  class="img-sp2"><a href="#" class="thumb2"><img src="IMG/brown-bear-cushion.jpg" height="298" width="298"/></a></div>
+                <div>
+                    <p>NEW</p>
+                </div>
+                <div>
+                    <a href="#">Samsung galaxy s6</a>
+                </div>
+                <div>
+                    <p><span>$99.00 - $199.00</span></p>
+                </div>
+                <div class="list2">
+                    <ul>
+                        <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
+                        <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
+                        <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
+                        <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sp2">
+                <div  class="img-sp2"><a href="#" class="thumb2"><img src="IMG/brown-bear-cushion.jpg" height="298" width="298"/></a></div>
+                <div>
+                    <p>NEW</p>
+                </div>
+                <div>
+                    <a href="#">Samsung galaxy s6</a>
+                </div>
+                <div>
+                    <p><span>$99.00 - $199.00</span></p>
+                </div>
+                <div class="list2">
+                    <ul>
+                        <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
+                        <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
+                        <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
+                        <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sp2">
+                <div  class="img-sp2"><a href="#" class="thumb2"><img src="IMG/brown-bear-cushion.jpg" height="298" width="298"/></a></div>
+                <div>
+                    <p>NEW</p>
+                </div>
+                <div>
+                    <a href="#">Samsung galaxy s6</a>
+                </div>
+                <div>
+                    <p><span>$99.00 - $199.00</span></p>
+                </div>
+                <div class="list2">
+                    <ul>
+                        <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
+                        <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
+                        <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
+                        <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sp2">
+                <div  class="img-sp2"><a href="#" class="thumb2"><img src="IMG/brown-bear-cushion.jpg" height="298" width="298"/></a></div>
+                <div>
+                    <p>NEW</p>
+                </div>
+                <div>
+                    <a href="#">Samsung galaxy s6</a>
+                </div>
+                <div>
+                    <p><span>$99.00 - $199.00</span></p>
+                </div>
+                <div class="list2">
+                    <ul>
+                        <li title="ADD TO WISHLISH"><a href="#"><i class="far fa-heart"></i></a></li>
+                        <li title="ADD TO CARD"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
+                        <li title="QUCK VIEW"><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
+                        <li><a title="ADD TO COMPARE" href="#"><i class="fas fa-compress-arrows-alt"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>-->
+
+
+        </div>
+    </div>
+    <div class="container"></div>
+</section>
+<footer>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <div class="col-md-1">
+                <a href="#"><img src="IMG/apple-logo.jpg" height="56" width="100"/></a>
+            </div>
+            <div class="col-md-1">
+                <a href="#"><img src="IMG/SAMSUNG-Logo.jpg" height="75" width="100"/></a>
+            </div>
+            <div class="col-md-1"><a href="#"><img src="IMG/mac_comp__ee2pokmcxh26_large.png" height="54" width="70"/></a></div>
+            <div class="col-md-1"><a href="#"><img src="IMG/macbookpro__enfip2k1cxkm_large.png" height="54" width="58"/></a></div>
+            <div class="col-md-1"><a href="#"></a><img src="IMG/iphone_11_pro_dark__cchxb3bv66vm_large.png" height="54"
+                                                       width="36"/></div>
+            <div class="col-md-1"><a href="#"><img src="IMG/ipad_comp_light__f80dzq6i8sq6_large.png" height="54"
+                                                   width="48"/></a></div>
+            <div class="col-md-1"><a href="#"><img src="IMG/ipad_light__expohijp19si_large.png" height="54" width="30"/></a></div>
+            <div class="col-md-1"><a href="#"><img src="IMG/pro_display_xdr__do0vjpny1kqe_large.png" height="54"
+                                                   width="48"/></a></div>
+            <div class="col-md-1"><a href="#"><img src="IMG/mac_pro__bn92faz71k6a_large.png" height="54" width="35"/></a></div>
+            <div class="col-md-1"><a href="#"><img src="IMG/ipadair_light__gan6yfrffc66_large.png" height="54"
+                                                   width="30"/></a></div>
+            <div class="col-md-1"><a href="#"><img src="IMG/keyboard_light__cjbr6d6i2vbm_large.png" height="54"
+                                                   width="64"/></a></div>
+            <div class="col-md-1"><a href="#"><img src="IMG/ipados_light__f5xv7yr98tm6_large.png" height="54"
+                                                   width="33"/></a></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-md-12 first-footer">
+            <div class="col-md-3 img-footer">
+                <img src="IMG/footer-woodstock-logo.png" height="79" width="260"/>
+                <p>Woodstock is a Modern Fully Responsive Retina Ready Woocommerce theme. Start your Store right away with Woodstock theme.</p>
+            </div>
+            <div class="col-md-3 footer-detail1">
+                <div class="col-md-12 footer-detail2">
+                    <p>FEATURED PRODUCTS</p>
+                </div>
+                <div class="col-md-12 footer-detail3">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="#"> <img src="IMG/Class-Q900-QLED-Smart-8K-UHD-TV-(2019).jpg" height="70" width="70"/></a></div>
+                        <div class="col-md-9">
+                            <div class="col-md-12"> <a href="#"> Q900 QLED 8K UHD TV</a></div>
+                            <div class="col-md-12"><p>
+                                $2,199.99</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 footer-detail3">
+                    <div class="row">
+                        <div class="col-md-3"><a href="#"><img src="IMG/iphone-11.jpg" height="65" width="70"/></a>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="col-md-12"> <a href="#">iPhone 11</a></div>
+                            <div class="col-md-12 footer-detail5">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12"><p>$850.00
+                            </p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 footer-detail3">
+                    <div class="row">
+                        <div class="col-md-3"><a href="#"><img src="IMG/samsungnote10footer.jpg" height="69" width="70"/></a>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="col-md-12"> <a href="#">
+                                Galaxy Note10+ </a></div>
+                            <div class="col-md-12 footer-detail5">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12"><p>$849.99
+                            </p></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3 footer-detail1">
+                <div class="col-md-12 footer-detail2">
+                    <p>TOP RATED PRODUCTS
+                    </p>
+                </div>
+                <div class="col-md-12 footer-detail3">
+                    <div class="row">
+                        <div class="col-md-3"><a href="#"><img src="IMG/samsunga50footer.jpg" height="70" width="70"/></a>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="col-md-12"> <a href="#">Samsung Galaxy A50s</a></div>
+                            <div class="col-md-12 footer-detail5">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12"><p>$349.99
+                            </p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 footer-detail3">
+                    <div class="row">
+                        <div class="col-md-3"><a href="#"><img src="IMG/apple-watch-hermes-footer.jpg" height="66" width="70"/></a>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="col-md-12"> <a href="#"> Apple Watch Hermès</a></div>
+                            <div class="col-md-12 footer-detail5">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12"><p>$749.00
+                            </p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 footer-detail3">
+                    <div class="row">
+                        <div class="col-md-3"><a href="#"><img src="IMG/ipad-air-footer.jpg" height="70" width="70"/></a>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="col-md-12"> <a href="#"> iPad Air</a></div>
+                            <div class="col-md-12 footer-detail5">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12"><p>$499.00
+                            </p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 footer-detail1">
+                <div class="col-md-12 footer-detail2">
+                    <p>LATEST NEWS</p>
+                </div>
+                <div class="col-md-12 footer-detail4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#">Oh, Princess Leia, are you all right?</a>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="#">Your time is limited…</a>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="#">Tour of Envato’s Melbourne Headquarters</a>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="#">TemashDesign Portfolio</a>
+                        </div>
+                        <div class="col-md-12 footer-detail2">
+                            <p>NEWS LETTER</p>
+                        </div>
+                        <div class="col-md-12 second-box">
+                            <div>
+                                <form method="get" action="get"> <input style="font-size:14px; font-weight:400;" class="form-control" placeholder="Your email address" type="email">
+                                    <button> SUBSCRIBE
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="col-md-12 footer-detail6">
+            <div class="col-md-8">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">FAQS</a></li>
+                    <li><a href="#">THE PRIVACY POLICY</a></li>
+                    <li><a href="#">MY ACCOUNT</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-md-12 third-footer">
+            <div class="col-md-7">
+                <p><span>© 2019 - Woodstock Woocommerce Theme. Created by</span><span><a href="#">TemashDesign</a></span></p>
+            </div>
+            <div class="col-md-5">
+
+                <img src="IMG/payment_cards.png" height="34" width="512"/></div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="JS/custom.js">
+</script>
+<script>
+    (function ($) {
+
+        const tabs = $("#tabs ul li a");
+
+        tabs.click(function () {
+            const content = this.hash.replace('/', '');
+            tabs.removeClass("active");
+            $(this).addClass("active");
+            $("#content > aside").hide();
+            $(content).fadeIn(200);
+        });
+
+    })(jQuery);
+</script>
+<script type="text/javascript">
+    var urlParams =new URLSearchParams(window.location.search);
+    var id =urlParams.get("id");
+    $.ajax({
+        url: "https://libertyelectronic-nodejs.herokuapp.com/api/chitiet",
+        method:"GET",
+        data:{
+            id:id
+        },
+        success: function (result) {
+            $(".anh").html(" ");
+            var new_html="<div class=\"img-detail\"><img src=\""+result.product.images +
+                "\" height=\"600\"\n" +
+                "                                             width=\"600\"/>\n" +
+                "                </div>";
+            $(".anh").append(new_html);
+            $(".add-detail").html(" ");
+            var detail=" <p style=\"width:85%;\"><a href=\"#\">WOODSTOCKS ELECTRONICS </a><a href=\"#\"> / OUR SHOP </a><a href=\"#\"> / SMARTPHONE</a><a href=\"#\"> / " +result.product.ten_mat_hang+
+                "</a></p>\n" +
+                "                    <h3>" +result.product.ten_mat_hang+
+                "</h3>\n" +
+                "                    <div class=\"star-detail\">\n" +
+                "                        <ul>\n" +
+                "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                "                        </ul>\n" +
+                "                    </div>\n" +
+                "                    <div class=\"price-detail\"><span>$" +result.product.gia_ban+
+                "</span><span>$" +result.product.gia_goc+
+                "</span></div>\n" +
+                "                    <div id=\"demo\"><p>" +result.product.demo+
+                "</p></div>\n" +
+                "                    <div class=\"detail-card\">\n" +
+                "                        <div class=\"btn_wrap\">\n" +
+                "                            <span class=\"share\">Share</span>\n" +
+                "                            <div class=\"containers\">\n" +
+                "                                <a href=\"#\"> <i class=\"fab fa-facebook-f icon-detail\" aria-hidden=\"true\"></i></a>\n" +
+                "                                <i class=\"fab fa-twitter icon-detail\" aria-hidden=\"true\"></i>\n" +
+                "                                <i class=\"fab fa-instagram icon-detail\" aria-hidden=\"true\"></i>\n" +
+                "                                <i class=\"fab fa-github icon-detail\" aria-hidden=\"true\"></i>\n" +
+                "                            </div>\n" +
+                "                        </div>\n" +
+                "                        <div>\n" +
+                "                            <form>\n" +
+                "                                <button><a style='color:white;' href='giohang.html'>add to card</a></button>\n" +
+                "                            </form>\n" +
+                "                        </div>\n" +
+                "                    </div>";
+            $(".add-detail").append(detail);
+            $("#content").html("");
+            var demo="<aside id=\"one\">\n" +
+                "                        <h6>\n" +
+                "                            Pro camera system\n" +
+                "                            We’ve three‑upped ourselves.</h6>\n" +
+                "                        <p>A transformative triple‑camera system that adds tons of capability without complexity. An\n" +
+                "                            unprecedented leap in battery life. And a mind‑blowing chip that doubles down on machine\n" +
+                "                            learning and pushes the boundaries of what a smartphone can do. Welcome to the first iPhone\n" +
+                "                            powerful enough to be called Pro.</p>\n" +
+                "                        <h6>4K video\n" +
+                "                            Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it</h6>\n" +
+                "                        <p>iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and\n" +
+                "                            smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range\n" +
+                "                            and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four\n" +
+                "                            times more scene and powerful new editing tools to play with</p>\n" +
+                "\n" +
+                "                    </aside>\n" +
+                "                    <aside id=\"two\" style=\"display: none\">\n" +
+                "                        <h5>CPU</h5>\n" +
+                "                        <p>" +result.product.CPU+
+                "</p>\n" +
+                "                        <h5>DISPLAY</h5>\n" +
+                "                        <p>" +result.product.DISPLAY+
+                "</p>\n" +
+                "                        <h5>STORAGE\n" +
+                "                        </h5><p>" +result.product.STORAGE+
+                "</p>\n" +
+                "                        <h5>POWER</h5><p>" +result.product.POWERS+
+                "</p>\n" +
+                "\n" +
+                "                    </aside>";
+            $("#content").append(demo);
+            var relate=result.lien_quan;
+            for(i=0;i<relate.length;i++){
+                var relationship="<div class=\"sp2\">\n" +
+                    "                <div  class=\"img-sp2\"><a href=\""+relate[i].link +
+                    "\" class=\"thumb2\"><img src=\""+relate[i].images +
+                    "\" height=\"298\" width=\"298\"/></a></div>\n" +
+                    "                <div>\n" +
+                    "                    <p>NEW</p>\n" +
+                    "                </div>\n" +
+                    "                <div>\n" +
+                    "                    <a href=\""+relate[i].link +
+                    "\">" +relate[i].ten_mat_hang+
+                    "</a>\n" +
+                    "                </div>\n" +
+                    "                <div>\n" +
+                    "                    <p><span>$" +relate[i].gia_ban+
+                    " - $" +relate[i].gia_goc+
+                    "</span></p>\n" +
+                    "                </div>\n" +
+                    "                <div class=\"list2\">\n" +
+                    "                    <ul>\n" +
+                    "                        <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\"></i></a></li>\n" +
+                    "                        <li title=\"ADD TO CARD\"><a href=\"#\"><i class=\"fas fa-cart-plus\"></i></a></li>\n" +
+                    "                        <li title=\"QUCK VIEW\"><a href=\"#\"><i class=\"fas fa-expand-arrows-alt\"></i></a></li>\n" +
+                    "                        <li><a title=\"ADD TO COMPARE\" href=\"#\"><i class=\"fas fa-compress-arrows-alt\"></i></a></li>\n" +
+                    "                    </ul>\n" +
+                    "                </div>\n" +
+                    "                <div>\n" +
+                    "                    <ul>\n" +
+                    "                        <li><i class=\"fas fa-star\"></i></li>\n" +
+                    "                        <li><i class=\"fas fa-star\"></i></li>\n" +
+                    "                        <li><i class=\"fas fa-star\"></i></li>\n" +
+                    "                        <li><i class=\"fas fa-star\"></i></li>\n" +
+                    "                        <li><i class=\"fas fa-star\"></i></li>\n" +
+                    "                    </ul>\n" +
+                    "                </div>\n" +
+                    "            </div>";
+                $(".related-product").append(relationship);
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Generics | Store</title>
+  <meta name="description" content="This is the description">
+  <link rel="stylesheet" href="CSS/styles.css" />
+  <script src="JS/store.js" async></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/50317932e7.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,600i,700,800,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="CSS/shopsmartphone.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script type="text/javascript" src="JS/jquery-1.11.0.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>
+  <div class="container-fluid" style="background-color: #333333;height:40px;">
+    <div class="row">
+      <div class="col-md-4 header-menu">
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-11">
+          <ul>
+            <li class="header-menudetail"><a href="#">HOME</a></li>
+            <li class="header-menudetail"><a href="#">CONTACT US</a></li>
+            <li class="header-menudetail"><a href="#">ABOUT US</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-3 header-menu">
+        <div class="col-md-6 header-menudetail">
+          <i style="color:white;" class="fas fa-sign-in-alt"></i>
+          <a href="#">
+            LOGIN/REGISTER
+          </a>
+        </div>
+        <div class="col-md-5 header-menudetail">
+          <i style="color:white;" class="far fa-heart"></i>
+          <a href="#">WISHLIST</a>
+        </div>
+      </div>
+      <div class="col-md-1 header-icon">
+        <a class="header-icon1" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="header-icon1" href="#"><i class="fab fa-facebook"></i></a>
+        <a class="header-icon1" href="#"><i class="fab fa-pinterest"></i></a>
+      </div>
+    </div>
+  </div><!--ket thuc container-fluid-->
+  <div class="container-fluid" style="height:140px;border-bottom:1px solid #f5f5f5;">
+    <div class="col-md-3 logo">
+      <a href="home.html"><img src="IMG/logo.png" height="75" width="247"/></a>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-4 first-searchbox">
+      <div class="search-box">
+        <form class="search-form" action="#" method="get"> <input style="font-size:17px; font-weight:400;" class="form-control search_input" placeholder="Search for product ..." type="text">
+          <button class="btn btn-link search-btn search_brand"> <i style="font-size:20px;" class="glyphicon glyphicon-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="notation">
+        <i class="fas fa-headphones"></i>
+        <div class="customer-support">
+          <p style="font-size:12px;">Customer Support</p>
+          <p style="font-size:15px; margin-top:-10px;font-weight:600;">1-800-123-45-67</p>
+        </div><i class="fas fa-chevron-down"></i>
+      </div>
+      <div class="bag">
+        <a href="#"> <i class="fas fa-shopping-bag"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row menu-main">
+      <div class="col-md-8">
+        <ul class="menu">
+          <li class="menu-item parent" style="padding-top:22px;">
+            <a class="li" href="#">HOME</a>
+          </li>
+          <li class="menu-item parent">
+            <a class="li" href="#">SHOP</a> <i class="fas fa-chevron-down"></i>
+            <ul class="submenu">
+              <li class="li1"  style="width:150px;"><a href="shoplaptop.html">LAPTOP AND MAC</a></li>
+              <li class="li1"><a href="shoptv.html">TIVI</a></li>
+              <li class="li1"><a href="shop-smarphone.html">SMARTPHONE</a></li>
+              <li class="li1"><a href="shop-smartwatch.html">WATCH</a></li>
+            </ul>
+          </li>
+          <li class="menu-item parent">
+            <a class="li" href="#">SAMSUNG</a> <i class="fas fa-chevron-down"></i>
+            <ul class="submenu" style="width:700px;">
+              <li class="li2">
+                <ul>
+                  <li><a href="#">SMARTPHONE</a></li>
+                  <li><a href="#">Galaxy S</a></li>
+                  <li><a href="#">Galaxy Note</a></li>
+                  <li><a href="#">Galaxy A Series</a></li>
+                  <li><a href="#">All</a></li>
+                </ul>
+              </li>
+              <li class="li2">
+                <ul>
+                  <li><a href="#">TV</a></li>
+                  <li><a href="#">QLED 8K/4K TV</a></li>
+                  <li><a href="#">Premium UHD 4K TV</a></li>
+                  <li><a href="#">Full HD & HD TV</a></li>
+                  <li><a href="#">All</a></li>
+                </ul>
+              </li>
+              <li class="li2">
+                <ul>
+                  <li><a href="#">LAPTOP AND IPAD</a></li>
+                  <li><a href="#">Galaxy Tab S</a></li>
+                  <li><a href="#">Galaxy Tab A</a></li>
+                  <li><a href="#">All</a></li>
+                </ul>
+              </li>
+              <li class="li2">
+                <ul>
+                  <li><a href="#">WATCH</a></li>
+                  <li><a href="#">Galaxy Watch Active2</a></li>
+                  <li><a href="#">Galaxy Fit</a></li>
+                  <li><a href="#">Gear Fit2 Pro</a></li>
+                  <li><a href="#">All</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item parent">
+            <a class="li" href="#">APPLE</a> <i class="fas fa-chevron-down"></i>
+            <ul class="submenu" style="width:700px;">
+              <li class="li2">
+                <ul>
+                  <li><a href="#">IPHONE</a></li>
+                  <li><a href="#">iPhone 11 Pro</a></li>
+                  <li><a href="#">iPhone 11</a></li>
+                  <li><a href="#">iPhone XR</a></li>
+                  <li><a href="#">All</a></li>
+                </ul>
+              <li class="li2">
+                <ul>
+                  <li><a href="#">MAC & IPAD</a></li>
+                  <li><a href="#">MacBook Air</a></li>
+                  <li><a href="#">Mac Pro</a></li>
+                  <li><a href="#">iMac</a></li>
+                  <li><a href="#">All</a></li>
+
+                </ul>
+              </li>
+              <li class="li2">
+                <ul>
+                  <li><a href="#">WATCH</a></li>
+                  <li><a href="#">Apple Watch Series 5</a></li>
+                  <li><a href="#">Apple Watch Nike</a></li>
+                  <li><a href="#">Apple Watch Series 3</a></li>
+                  <li><a href="#">All</a></li>
+                </ul>
+              </li>
+              <li class="li2">
+                <ul>
+                  <li><a href="#">TV</a></li>
+                  <li><a href="#">Apple TV+</a></li>
+                  <li><a href="#">Apple TV 4K</a></li>
+                  <li><a href="#">Apple TV HD</a></li>
+                  <li><a href="#">All</a></li>
+                </ul>
+              </li>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item parent" style="padding-top:22px;">
+            <a class="li" href="#">BLOG</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-5">
+
+      </div>
+    </div>
+  </div>
+  <div class="img-shopbanner">
+    <a href="#"><img src="IMG/main-shop-banner.jpg" height="600" width="1920"/></a>
+  </div>
+  <div id="text-shopbanner">
+    <div><p>Card</p>
+
+    </div>
+    <div>
+      <a href="#">WOODSTOCK ELECTRONICS</a>
+      <span>/ Our Shop</span>
+    </div>
+  </div>
+</header>
+<section class="container content-section">
+  <h2 class="section-header">MUSIC</h2>
+  <div class="shop-items">
+    <div class="shop-item">
+      <span class="shop-item-title">Album 1</span>
+      <img class="shop-item-image" src="IMG/Album 1.png">
+      <div class="shop-item-details">
+        <span class="shop-item-price">$12.99</span>
+        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+    <div class="shop-item">
+      <span class="shop-item-title">Album 2</span>
+      <img class="shop-item-image" src="IMG/Album 2.png">
+      <div class="shop-item-details">
+        <span class="shop-item-price">$14.99</span>
+        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+      </div>
+    </div>
+    <div class="shop-item">
+      <span class="shop-item-title">Album 3</span>
+      <img class="shop-item-image" src="IMG/Album 3.png">
+      <div class="shop-item-details">
+        <span class="shop-item-price">$9.99</span>
+        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+    <div class="shop-item">
+      <span class="shop-item-title">Album 4</span>
+      <img class="shop-item-image" src="IMG/Album 4.png">
+      <div class="shop-item-details">
+        <span class="shop-item-price">$19.99</span>
+        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container content-section">
+  <h2 class="section-header">MERCH</h2>
+  <div class="shop-items">
+    <div class="shop-item">
+      <span class="shop-item-title">T-Shirt</span>
+      <img class="shop-item-image" src="IMG/Shirt.png">
+      <div class="shop-item-details">
+        <span class="shop-item-price">$19.99</span>
+        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+    <div class="shop-item">
+      <span class="shop-item-title">Coffee Cup</span>
+      <img class="shop-item-image" src="IMG/Cofee.png">
+      <div class="shop-item-details">
+        <span class="shop-item-price">$6.99</span>
+        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container content-section">
+  <h2 class="section-header">CART</h2>
+  <div class="cart-row">
+    <span class="cart-item cart-header cart-column">ITEM</span>
+    <span class="cart-price cart-header cart-column">PRICE</span>
+    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+  </div>
+  <div class="cart-items">
+  </div>
+  <div class="cart-total">
+    <strong class="cart-total-title">Total</strong>
+    <span class="cart-total-price">$0</span>
+  </div>
+  <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+<div class="container-fluid"></div>
+<footer>
+  <div class="container-fluid">
+    <div class="col-md-12">
+      <div class="col-md-1">
+        <a href="#"><img src="IMG/apple-logo.jpg" height="56" width="100"/></a>
+      </div>
+      <div class="col-md-1">
+        <a href="#"><img src="IMG/SAMSUNG-Logo.jpg" height="75" width="100"/></a>
+      </div>
+      <div class="col-md-1"><a href="#"><img src="IMG/mac_comp__ee2pokmcxh26_large.png" height="54" width="70"/></a></div>
+      <div class="col-md-1"><a href="#"><img src="IMG/macbookpro__enfip2k1cxkm_large.png" height="54" width="58"/></a></div>
+      <div class="col-md-1"><a href="#"></a><img src="IMG/iphone_11_pro_dark__cchxb3bv66vm_large.png" height="54"
+                                                 width="36"/></div>
+      <div class="col-md-1"><a href="#"><img src="IMG/ipad_comp_light__f80dzq6i8sq6_large.png" height="54"
+                                             width="48"/></a></div>
+      <div class="col-md-1"><a href="#"><img src="IMG/ipad_light__expohijp19si_large.png" height="54" width="30"/></a></div>
+      <div class="col-md-1"><a href="#"><img src="IMG/pro_display_xdr__do0vjpny1kqe_large.png" height="54"
+                                             width="48"/></a></div>
+      <div class="col-md-1"><a href="#"><img src="IMG/mac_pro__bn92faz71k6a_large.png" height="54" width="35"/></a></div>
+      <div class="col-md-1"><a href="#"><img src="IMG/ipadair_light__gan6yfrffc66_large.png" height="54"
+                                             width="30"/></a></div>
+      <div class="col-md-1"><a href="#"><img src="IMG/keyboard_light__cjbr6d6i2vbm_large.png" height="54"
+                                             width="64"/></a></div>
+      <div class="col-md-1"><a href="#"><img src="IMG/ipados_light__f5xv7yr98tm6_large.png" height="54"
+                                             width="33"/></a></div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="col-md-12 first-footer">
+      <div class="col-md-3 img-footer">
+        <img src="IMG/footer-woodstock-logo.png" height="79" width="260"/>
+        <p>Woodstock is a Modern Fully Responsive Retina Ready Woocommerce theme. Start your Store right away with Woodstock theme.</p>
+      </div>
+      <div class="col-md-3 footer-detail1">
+        <div class="col-md-12 footer-detail2">
+          <p>FEATURED PRODUCTS</p>
+        </div>
+        <div class="col-md-12 footer-detail3">
+          <div class="row">
+            <div class="col-md-3">
+              <a href="#"> <img src="IMG/Class-Q900-QLED-Smart-8K-UHD-TV-(2019).jpg" height="70" width="70"/></a></div>
+            <div class="col-md-9">
+              <div class="col-md-12"> <a href="#"> Q900 QLED 8K UHD TV</a></div>
+              <div class="col-md-12"><p>
+                $2,199.99</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 footer-detail3">
+          <div class="row">
+            <div class="col-md-3"><a href="#"><img src="IMG/iphone-11.jpg" height="65" width="70"/></a>
+            </div>
+            <div class="col-md-9">
+              <div class="col-md-12"> <a href="#">iPhone 11</a></div>
+              <div class="col-md-12 footer-detail5">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="col-md-12"><p>$850.00
+              </p></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 footer-detail3">
+          <div class="row">
+            <div class="col-md-3"><a href="#"><img src="IMG/samsungnote10footer.jpg" height="69" width="70"/></a>
+            </div>
+            <div class="col-md-9">
+              <div class="col-md-12"> <a href="#">
+                Galaxy Note10+ </a></div>
+              <div class="col-md-12 footer-detail5">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="col-md-12"><p>$849.99
+              </p></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-3 footer-detail1">
+        <div class="col-md-12 footer-detail2">
+          <p>TOP RATED PRODUCTS
+          </p>
+        </div>
+        <div class="col-md-12 footer-detail3">
+          <div class="row">
+            <div class="col-md-3"><a href="#"><img src="IMG/samsunga50footer.jpg" height="70" width="70"/></a>
+            </div>
+            <div class="col-md-9">
+              <div class="col-md-12"> <a href="#">Samsung Galaxy A50s</a></div>
+              <div class="col-md-12 footer-detail5">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="col-md-12"><p>$349.99
+              </p></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 footer-detail3">
+          <div class="row">
+            <div class="col-md-3"><a href="#"><img src="IMG/apple-watch-hermes-footer.jpg" height="66" width="70"/></a>
+            </div>
+            <div class="col-md-9">
+              <div class="col-md-12"> <a href="#"> Apple Watch Hermès</a></div>
+              <div class="col-md-12 footer-detail5">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="col-md-12"><p>$749.00
+              </p></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 footer-detail3">
+          <div class="row">
+            <div class="col-md-3"><a href="#"><img src="IMG/ipad-air-footer.jpg" height="70" width="70"/></a>
+            </div>
+            <div class="col-md-9">
+              <div class="col-md-12"> <a href="#"> iPad Air</a></div>
+              <div class="col-md-12 footer-detail5">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="col-md-12"><p>$499.00
+              </p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 footer-detail1">
+        <div class="col-md-12 footer-detail2">
+          <p>LATEST NEWS</p>
+        </div>
+        <div class="col-md-12 footer-detail4">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="#">Oh, Princess Leia, are you all right?</a>
+            </div>
+            <div class="col-md-12">
+              <a href="#">Your time is limited…</a>
+            </div>
+            <div class="col-md-12">
+              <a href="#">Tour of Envato’s Melbourne Headquarters</a>
+            </div>
+            <div class="col-md-12">
+              <a href="#">TemashDesign Portfolio</a>
+            </div>
+            <div class="col-md-12 footer-detail2">
+              <p>NEWS LETTER</p>
+            </div>
+            <div class="col-md-12 second-box">
+              <div>
+                <form method="get" action="get"> <input style="font-size:14px; font-weight:400;" class="form-control" placeholder="Your email address" type="email">
+                  <button> SUBSCRIBE
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid">
+    <div class="col-md-12 footer-detail6">
+      <div class="col-md-8">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">FAQS</a></li>
+          <li><a href="#">THE PRIVACY POLICY</a></li>
+          <li><a href="#">MY ACCOUNT</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="col-md-12 third-footer">
+      <div class="col-md-7">
+        <p><span>© 2019 - Woodstock Woocommerce Theme. Created by</span><span><a href="#">TemashDesign</a></span></p>
+      </div>
+      <div class="col-md-5">
+        <img src="IMG/payment_cards.png" height="34" width="512"/></div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="JS/custom.js">
+</script>
+</body>
+</html>

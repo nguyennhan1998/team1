@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #items_container{
+            margin-left:40px;
+        }
+        .item{
+            float:left;
+            border:#aaaaaa 1px solid;
+            padding:10px;
+            margin:10px;
+        }
+        .item > img{
+            width:350px;
+            height:290px;
+            border:#6d6d6d 1px solid;
+            cursor:pointer;
+        }
+        .item > span{
+            display:block;
+            text-align:center;
+            margin-top:10px;
+        }
+    </style>
+    <script type="text/javascript">
+        window.addEventListener('load',function(){
+            var items_container=document.getElementById("items_container");
+            var dir="IMG/";
+            var obj1={name:"iphone2",pics:["cat-audio.jpg","cat-computers.jpg","cat-watches.jpg"]};
+            var obj2={name:"iphone3",pics:["cat-audio.jpg","cat-computers.jpg","cat-watches.jpg"]};
+            var obj3={name:"iphone4",pics:["cat-audio.jpg","cat-computers.jpg","cat-watches.jpg"]};
+            var obj_array=[obj1,obj2,obj3];
+            var thumbtimer,ti=0;
+            for(var i=0;i<obj_array.length;i++){
+                var div =document.createElement("div");
+                var img=document.createElement("img");
+                var span=document.createElement("span");
+                {
+                    div.className="item";
+                    img.oi=i;
+                    img.src= dir + obj_array[i].pics[0];
+                    span.innerHTML= obj_array[i].name;
+                    items_container.appendChild(div);
+                    div.appendChild(img);
+                    div.appendChild(span);
+                }
+                img.addEventListener("mouseover",
+                    function(event){
+                        thumbtimer=setInterval(function () {
+                            ti++;
+                            if(ti == obj_array[event.target.oi].pics.length) {ti=0;}
+                            event.target.src= dir + obj_array[event.target.oi].pics[ti];
+                        },500);
+                    });
+                img.addEventListener("mouseout",function (event) {
+                    clearInterval(thumbtimer);
+                    ti=0;
+                    event.target.src= dir + obj_array[event.target.oi].pics[ti];
+                })
+            }
+        })
+    </script>
+<body>
+<div id="items_container">
+    <h3><center>Xin moi xem san pham</center></h3>
+</div>
+</body>
+</html>

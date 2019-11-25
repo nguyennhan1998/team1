@@ -2,11 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giohang1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giohang3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iPhone 11 64GB.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-smarphone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-smartwatch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoplaptop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/chi_tiet_san_pha.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/examples.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/flexible-bootstrap-carousel.1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/flexible-bootstrap-carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/home3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/jquerysctipttop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/nivo-slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/shop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/slider-pro.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/cacmathang.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diachi.html" beforeDir="false" afterPath="$PROJECT_DIR$/Diachi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/24h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/360moto-01-350x380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/Class-Q900-QLED-Smart-8K-UHD-TV-(2019).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/MacBook_Pro_13_inch-e1522292522356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/SAMSUNG-Logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/SAMSUNG-Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/anhblog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/apple logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/apple-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-hermes-footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/banner_galaxy-tab-s6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/brown-bear-cushion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/cat-audio.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/cat-computers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/cat-watches.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/cellphones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/computers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/customizable-mug.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/footer-woodstock-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/hermes_series5_logo__vtoy5mh25cym_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/iconoto.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/ipad-air-footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/ipad-mini-01-350x380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/ipad_comp_light__f80dzq6i8sq6_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/ipad_light__expohijp19si_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/ipadair_light__gan6yfrffc66_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/ipados_light__f5xv7yr98tm6_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/iphone-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/iphone11pro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/iphone5c-350x380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/iphone6-350x380 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/iphone6-350x380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/iphone_11_pro_dark__cchxb3bv66vm_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/iphone_8_dark__d4f1b8j5cwia_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/keyboard_light__cjbr6d6i2vbm_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/mac_comp__ee2pokmcxh26_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/mac_pro__bn92faz71k6a_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/macbook_pro-350x380 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/macbook_pro-350x380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/macbookpro__enfip2k1cxkm_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/main-shop-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/money.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/mug-the-adventure-begins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/mug-today-is-a-good-day.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/payment_cards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/pro_display_xdr__do0vjpny1kqe_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/samsunga50footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/samsungnote10footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/slider1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/slider2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/slider3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/slider4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/smartwatches.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/the-adventure-begins-framed-poster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/today-is-a-good-day-framed-poster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/wallpaper-3840x2400-ffffff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/watch_series5_logo__gesq9wbqdfmi_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/xperia_z2_01-350x380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/flexible-bootstrap-carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/jquery.nivo.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/jquery.sliderPro.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/action_page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi_tiet_san_pham.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoptv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleMap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +189,7 @@
       <workItem from="1573448472894" duration="16841000" />
       <workItem from="1573467674568" duration="1683000" />
       <workItem from="1573515981566" duration="35812000" />
+      <workItem from="1574648080436" duration="314000" />
     </task>
     <servers />
   </component>
