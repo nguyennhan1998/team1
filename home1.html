@@ -273,7 +273,7 @@
             <div class="tab-content">
                 <div id="bestsellers" class="container tab-pane active"><br>
                     <div class="bestseller">
-                        <div class="sp1">
+                   <!--  <div class="sp1">
                             <div class="img-sp1">
                                 <div>
                                     <a href="#" class="thumb">
@@ -346,13 +346,13 @@
                                     <li><i class="fas fa-star"></i></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
-                <!---->
+
                 <div class="tab-pane container" id="newproducts">
                     <div class="newproducts">
-                        <div class="sp1">
+                        <!--<div class="sp1">
                             <div class="img-sp1">
                                 <div>
                                     <a href="#" class="thumb">
@@ -388,12 +388,12 @@
                                     <li><i class="fas fa-star"></i></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <div class="tab-pane container" id="salesproducts">
                     <div class="salesproducts">
-                        <div class="sp1">
+                       <!-- <div class="sp1">
                             <div class="img-sp1">
                                 <div>
                                     <a href="#" class="thumb">
@@ -429,7 +429,7 @@
                                     <li><i class="fas fa-star"></i></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -446,7 +446,10 @@
                             <h1>TOP SMARTPHONE</h1>
                             <h6> WOODSTOCK CHOICE</h6>
                         </div>
-                        <!---->
+                        <div class="add-phone">
+
+                        </div>
+                        <!--
                         <div class="sp3">
                             <div class="img-sp3">
                                 <a href="#" class="thumb3">
@@ -551,7 +554,7 @@
                                     <li><i class="fas fa-star"></i></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>-->
 
                         <div class="shop-all-smartphone">
                             <span><a href="#">SHOP ALL SMARTPHONE</a></span>
@@ -569,7 +572,8 @@
                             <h1>TOP COMPUTER</h1>
                             <h6> WOODSTOCK CHOICE</h6>
                         </div>
-                        <div class="sp3">
+                        <div class="add-laptop"></div>
+                       <!-- <div class="sp3">
                             <div class="img-sp3">
                                 <a href="#" class="thumb3">
                                     <img src="IMG/apple-macbook-air-2019-i5-16ghz-8gb-128gb-mvfm2sa-13-32-600x600.jpg"/>
@@ -673,7 +677,7 @@
                                     <li><i class="fas fa-star"></i></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="shop-all-computer">
                             <span><a href="#">SHOP ALL COMPUTER</a></span>
                         </div>
@@ -927,7 +931,7 @@
         method: "GET",
         success: function (result) {
             var data1 = result.product;
-            for (var i = 0; i <= 2; i++) {
+            for (var i = 0; i <=7; i++) {
                 var new_html = "<div class=\"sp1\">\n" +
                     "            <div><a href=\"#\" class=\"thumb\"><img src=\"" + data1[i].images +
                     "\"></a></div>\n" +
@@ -962,8 +966,110 @@
                     "            </div>\n" +
                     "        </div>";
                 $(".bestseller").append(new_html);
+                    $(".newproducts").append(new_html);
+                    $(".salesproducts").append(new_html);
             }
         }
+    });
+</script>
+<script type="text/javascript">
+    $.ajax({
+        url:"https://libertyelectronic-nodejs.herokuapp.com/api/home",
+        method: "GET",
+        success:function (result) {
+            var data2=result.phone;
+            for(var i=0;i<=data2.length;i++){
+                var new_html1="<div class=\"sp3\">\n" +
+                    "                    <div class=img-sp3><a href=\""+data2[i].link +
+                    "\" class=\"thumb3\"><img src=\""+data2[i].images +
+                    "\" height=\"400\" width=\"400\"></a></div>\n" +
+                    "                    <div>\n" +
+                    "                        <p>NEW</p>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <a href=\""+data2[i].link +
+                    "\">" +data2[i].ten_mat_hang+
+                    "</a>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <p><span>$" +data2[i].gia_ban+
+                    " - $" +data2[i].gia_goc+
+                    "</span></p>\n" +
+                    "                    </div>\n" +
+                    "                    <div class=\"list3\">\n" +
+                    "                        <ul>\n" +
+                    "                            <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li title=\"QUCK VIEW\"><a href=\""+data2[i].link +
+                    "\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li><a title=\"ADD TO COMPARE\" href=\""+data2[i].link +
+                    "\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                        </ul>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <ul>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                        </ul>\n" +
+                    "                    </div>\n" +
+                    "                </div>";
+                $(".add-phone").append(new_html1);
+            };
+        }
+
+    });
+</script>
+<script type="text/javascript">
+    $.ajax({
+        url:"https://libertyelectronic-nodejs.herokuapp.com/api/home",
+        method: "GET",
+        success:function (result) {
+            var data2=result.laptop;
+            for(var i=0;i<=data2.length;i++){
+                var new_html1="<div class=\"sp4\">\n" +
+                    "                    <div class=img-sp4><a href=\""+data2[i].link +
+                    "\" class=\"thumb4\"><img src=\""+data2[i].images +
+                    "\" height=\"400\" width=\"400\"></a></div>\n" +
+                    "                    <div>\n" +
+                    "                        <p>NEW</p>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <a href=\""+data2[i].link +
+                    "\">" +data2[i].ten_mat_hang+
+                    "</a>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <p><span>$" +data2[i].gia_ban+
+                    " - $" +data2[i].gia_goc+
+                    "</span></p>\n" +
+                    "                    </div>\n" +
+                    "                    <div class=\"list4\">\n" +
+                    "                        <ul>\n" +
+                    "                            <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li title=\"QUCK VIEW\"><a href=\""+data2[i].link +
+                    "\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                            <li><a title=\"ADD TO COMPARE\" href=\""+data2[i].link +
+                    "\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                        </ul>\n" +
+                    "                    </div>\n" +
+                    "                    <div>\n" +
+                    "                        <ul>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                            <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                    "                        </ul>\n" +
+                    "                    </div>\n" +
+                    "                </div>";
+                $(".add-laptop").append(new_html1);
+            };
+        }
+
     });
 </script>
 <script type="text/javascript" src="JS/custom.js"></script>

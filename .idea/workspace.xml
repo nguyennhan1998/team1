@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/home1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/Electronic-Tablets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/Time-Life.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/brown-bear-cushion (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/mug-the-adventure-begins.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/mug-today-is-a-good-day.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/the-adventure-begins-framed-poster (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/top-computer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diachi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/giohang1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/giohang3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iPhone 11 64GB.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout.html" beforeDir="false" />
-    </list>
+    <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +89,7 @@
       <workItem from="1573515981566" duration="35812000" />
       <workItem from="1574648080436" duration="314000" />
       <workItem from="1574648729421" duration="3038000" />
+      <workItem from="1574658387235" duration="512000" />
     </task>
     <servers />
   </component>
