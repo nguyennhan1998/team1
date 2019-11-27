@@ -57,7 +57,7 @@
         <div class="col-md-2"></div>
         <div class="col-md-4 first-searchbox">
             <div class="search-box">
-                <form class="search-form" action="#" method="get"> <input style="font-size:17px; font-weight:400;" class="form-control search_input" placeholder="Search for product ..." type="text">
+                <form class="search-form" action="#" method="get"> <input style="font-size:17px; font-weight:400;" class="form-control search_input" onkeypress="searchProduct2()" placeholder="Search for product ..." type="text">
                     <button class="btn btn-link search-btn search_brand"> <i style="font-size:20px;" class="glyphicon glyphicon-search"></i>
                     </button>
                 </form>
@@ -762,10 +762,11 @@
             });
     }
     /*search*/
+    /*search*/
     $(".search_brand").bind("click",function () {
         $(".add").html("<img src='CSS/loading.gif'/>");
         $.ajax({
-            url: "https://libertyelectronic-nodejs.herokuapp.com/api/timkiem",
+            url: "https://libertyelectronic-nodejs.herokuapp.com/api/findsmartwatch",
             method: "GET",
             data: {
                 search: $(".search_input").val()
@@ -813,11 +814,70 @@
                             "        </div>";
                         $(".add").append(new_html);
                     }
-                },0);
+                },2000);
 
             }
         });
     })
+    function searchProduct2() {
+        if(event.keyCode == 13){
+            $.ajax({
+                url:'https://libertyelectronic-nodejs.herokuapp.com/api/findsmartwatch',
+                method:'GET',
+                data:{
+                    search:  $(".search_input").val(),
+                    page: 1
+                },
+                success: function (result) {
+                    setTimeout(function () {
+                        $(".add").html(" ");
+                        for(var i=0;i<result.length;i++){
+                            var new_html =  "        <div class=\"sp2\">\n" +
+                                "            <div class=\"img-sp2\"><a href=\""+result[i].link +
+                                "\" class=\"thumb2\"><img src=\""+result[i].images +
+                                "\" height=\"600\" width=\"600\"></a></div>\n" +
+                                "            <div>\n" +
+                                "                <p>NEW</p>\n" +
+                                "            </div>\n" +
+                                "            <div>\n" +
+                                "                <a href=\""+result[i].link +
+                                "\">" +result[i].ten_mat_hang+
+                                "</a>\n" +
+                                "            </div>\n" +
+                                "            <div>\n" +
+                                "                <p><span>$" +result[i].gia_ban+
+                                " - $" +result[i].gia_goc+
+                                "</span></p>\n" +
+                                "            </div>\n" +
+                                "            <div class=\"list2\">\n" +
+                                "                <ul>\n" +
+                                "                    <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
+                                "                    <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                                "                    <li title=\"QUCK VIEW\"><a href=\""+result[i].link +
+                                "\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                                "                    <li><a title=\"ADD TO COMPARE\" href=\""+result[i].link +
+                                "\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                                "                </ul>\n" +
+                                "            </div>\n" +
+                                "            <div>\n" +
+                                "                <ul>\n" +
+                                "                    <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                                "                    <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                                "                    <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                                "                    <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                                "                    <li><i class=\"fas fa-star\" aria-hidden=\"true\"></i></li>\n" +
+                                "                </ul>\n" +
+                                "            </div>\n" +
+                                "        </div>";
+                            $(".add").append(new_html);
+                        }
+                    },2000);
+                }
+            });
+        }
+
+    }
+
 </script>
 </body>
 </html>

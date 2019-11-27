@@ -262,11 +262,23 @@ header,section,footer{
     text-decoration: none;
 }
 /*ket thuc phan menu*/
+.img9{
+    width:100%;
+    float:left;
+    text-align: center;
+    margin-top:40px;
+}
+.img-w{
+    width:94%;
+    display: inline-block;
+    overflow: hidden;
+}
 .img9 .img-wrapper:first-child{
-    margin-left:40px;
+    float:left;
 }
 .img9 .img-wrapper:nth-child(2),.img9 .img-wrapper:nth-child(3),.img9 .img-wrapper:nth-child(4){
-    margin-left:10px;
+    margin-left:22px;
+    float:left;
 }
 .img-wrapper {
     overflow: hidden;
@@ -282,7 +294,6 @@ header,section,footer{
     transform: scale(1.1);
     opacity:0.8;
     cursor:pointer;
-    background-color:green;
 }
 .img-wrapper {
 
@@ -466,18 +477,12 @@ footer div:nth-child(2) ul li a:hover{
 }
 /*ket thuc phan footer*/
 /*san pham*/
-.sp{
-    margin-left:30px;
-    float:left;
-    width:100%;
-    margin-bottom:30px;
-    box-sizing: border-box;
-}
+
 .sp1{
     margin-top:10px;
     float:left;
     margin-left:11px;
-    width:300px;
+    width:290px;
     height:420px;
     border:1px solid #e9e9e9;
     transition:0.9s;
@@ -485,13 +490,13 @@ footer div:nth-child(2) ul li a:hover{
 }
 .sp1 .img-sp1{
     float: left;
-    width: 300px;
+    width: 290px;
     height: 300px;
 }
 
 .sp1 .thumb{
     float: left;
-    height: 300px;
+    height: 290px;
     width: 300px;
     text-align: center;
 }
@@ -551,7 +556,7 @@ footer div:nth-child(2) ul li a:hover{
 .sp1 div:nth-child(6) ul li{
     margin-left:5px;
     float:left;
-    color:#6990cb;
+    color:#fcbe32;
 }
 
 /*hinh chuyen dong*/
@@ -606,7 +611,7 @@ footer div:nth-child(2) ul li a:hover{
    }
 .sp1 .thumb{
     overflow: hidden;
-    display: block;
+    display:inline-block;
 }
 .thumb img{
     max-width: 100%;
@@ -673,7 +678,7 @@ footer div:nth-child(2) ul li a:hover{
 .sp3 div:nth-child(6) ul li{
     margin-left:5px;
     float:left;
-    color:#6990cb;
+    color:#fcbe32;
 }
 
 /*hinh chuyen dong*/
@@ -801,7 +806,7 @@ footer div:nth-child(2) ul li a:hover{
 .sp4 div:nth-child(6) ul li{
     margin-left:5px;
     float:left;
-    color:#6990cb;
+    color:#fcbe32;
 }
 
 /*hinh chuyen dong*/
@@ -920,4 +925,52 @@ footer div:nth-child(2) ul li a:hover{
 #img-thumb4 img{
     width:100%;
     height:auto;
+}
+.search-home{
+    float:left;
+    width:100%;
+    text-align: center;
+}
+.wait-search{
+    width:90%;
+    overflow: hidden;
+    display: inline-block;
+}
+#search-home{
+    width:100%;
+    float:left;
+    font-size:20px;
+}
+#search-home p{
+    margin-left:40px;
+}
+.phan_trang{
+    float:left;
+    width:100%;
+    text-align: center;
+    margin-top:30px;
+}
+.phan_trang ul{
+    list-style:none;
+    display: inline-block;
+}
+.phan_trang li{
+    width:30px;
+    height:30px;
+    float:left;
+    font-size:20px;
+    margin-left:15px;
+    border:1px solid grey;
+    border-radius: 3px;
+}
+.phan_trang li:hover{
+    cursor: pointer;
+    background-color:#f6f7f9;
+}
+.phan_trang a{
+    color:black;
+}
+.phan_trang a:hover{
+    text-decoration:none;
+    color:black;
 }

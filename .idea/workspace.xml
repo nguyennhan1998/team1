@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="" />
+    <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CSS/home1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -21,12 +25,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SxYIp8y79QLgmeP7Ed2sIwJUTZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/IMG" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/checknodeserver" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -34,15 +40,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CSS" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/IMG" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\Users\Admin\WebstormProjects\LIBETY ELECTRONIC" />
+      <recent name="C:\Users\Admin\WebstormProjects\LIBETY ELECTRONIC\IMG" />
+      <recent name="C:\Users\Admin\WebstormProjects\LIBETY ELECTRONIC\CSS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -56,6 +61,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LIBETY ELECTRONIC/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -87,9 +102,49 @@
       <workItem from="1573448472894" duration="16841000" />
       <workItem from="1573467674568" duration="1683000" />
       <workItem from="1573515981566" duration="35812000" />
-      <workItem from="1574648080436" duration="314000" />
-      <workItem from="1574648729421" duration="3038000" />
-      <workItem from="1574658387235" duration="512000" />
+      <workItem from="1573565703395" duration="2237000" />
+      <workItem from="1573602498953" duration="3095000" />
+      <workItem from="1573644511380" duration="1271000" />
+      <workItem from="1573646218336" duration="11690000" />
+      <workItem from="1573690682276" duration="7117000" />
+      <workItem from="1573699505028" duration="8556000" />
+      <workItem from="1573718670811" duration="19546000" />
+      <workItem from="1573782088658" duration="18607000" />
+      <workItem from="1573808096776" duration="3310000" />
+      <workItem from="1573817147099" duration="632000" />
+      <workItem from="1573825457190" duration="6653000" />
+      <workItem from="1573865784994" duration="12797000" />
+      <workItem from="1573885033651" duration="6930000" />
+      <workItem from="1573917244560" duration="2633000" />
+      <workItem from="1573951273696" duration="23758000" />
+      <workItem from="1573990291532" duration="2822000" />
+      <workItem from="1573993414519" duration="622000" />
+      <workItem from="1574001400017" duration="958000" />
+      <workItem from="1574042209152" duration="770000" />
+      <workItem from="1574051063154" duration="11200000" />
+      <workItem from="1574068948983" duration="4150000" />
+      <workItem from="1574092247885" duration="234000" />
+      <workItem from="1574127476820" duration="12549000" />
+      <workItem from="1574208578612" duration="1532000" />
+      <workItem from="1574227102097" duration="19080000" />
+      <workItem from="1574303360035" duration="16345000" />
+      <workItem from="1574387801488" duration="19543000" />
+      <workItem from="1574478441468" duration="15784000" />
+      <workItem from="1574517368424" duration="5560000" />
+      <workItem from="1574555725097" duration="10674000" />
+      <workItem from="1574587695620" duration="596000" />
+      <workItem from="1574647855168" duration="529000" />
+      <workItem from="1574648710521" duration="401000" />
+      <workItem from="1574649209176" duration="527000" />
+      <workItem from="1574649763671" duration="19000" />
+      <workItem from="1574649804370" duration="3652000" />
+      <workItem from="1574660171445" duration="3931000" />
+      <workItem from="1574673046208" duration="1388000" />
+      <workItem from="1574739410592" duration="1833000" />
+      <workItem from="1574744085330" duration="644000" />
+      <workItem from="1574745928806" duration="241000" />
+      <workItem from="1574751121667" duration="19994000" />
+      <workItem from="1574779423974" duration="1083000" />
     </task>
     <servers />
   </component>
@@ -108,5 +163,36 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/home.html</url>
+          <line>67</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/shoplaptop.html</url>
+          <line>669</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/shoplaptop.html</url>
+          <line>716</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/home.html</url>
+          <line>690</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/shop-smarphone.html</url>
+          <line>447</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
