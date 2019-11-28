@@ -1,0 +1,98 @@
+.bill{
+    width:90%;
+    overflow: hidden;
+    display: inline-block;
+}
+.design-bag{
+    width:100%;
+    float:left;
+    text-align: center;
+}
+.left-bill{
+    float:left;
+    width:48%;
+}
+.right-bill{
+    float:right;
+    width:49%;
+    border:1px solid grey;
+}
+.left-bill .cart-item-image{
+    float:left;
+}
+.left-bill .cart-item-title{
+    float:left;
+}
+.left-bill .shop-item{
+    width:100%;
+    height:170px;
+    border-bottom: 1px solid grey;
+}
+.left-bill .cart-column{
+    float:left;
+    margin-right:100px;
+}
+.left-bill .shop-item-title{
+    width:50%;
+    float:left;
+    height:40%;
+}
+.left-bill .shop-item-title p{
+    margin-top:20px;
+    font-size: 20px;
+}
+.left-bill .anh{
+    width:30%;
+    float:left;
+    height: 100%;
+}
+.shop-item-image{
+    margin-top:20px;
+    width:85%;
+    height:auto;
+
+}
+.left-bill .shop-item-price{
+    float:left;
+    width:50%;
+    height:30px;
+    color:red;
+}
+
+.left-bill .shop-item-details{
+    float:left;
+    width:50%;
+}
+.left-bill .cart-items{
+    margin-top:40px;
+    width:100%;
+    float:left;
+}
+.add{
+    width:100%;
+    float:left;
+    height:100px;
+    border-bottom: 1px solid grey;
+}
+.add .cart-item{
+    width:40%;
+    float:left;
+    height:150px;
+}
+.add .anh{
+    width:50%;
+    float:left;
+    margin-top:20px;
+}
+.add .anh .cart-item-image{
+    width:40%;
+    height: auto;
+    overflow: auto;
+    display: inline-block;
+}
+.add .cart-item-title{
+    float:left;
+    width:50%;
+    margin-top:20px;
+    font-size: 15px;
+}
