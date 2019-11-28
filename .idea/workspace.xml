@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/home1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-color.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-smarphone.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-smarphone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-smartwatch.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-smartwatch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoplaptop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoplaptop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoptv.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoptv.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/checknodeserver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LIBETY ELECTRONIC" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -145,6 +148,11 @@
       <workItem from="1574745928806" duration="241000" />
       <workItem from="1574751121667" duration="19994000" />
       <workItem from="1574779423974" duration="1083000" />
+      <workItem from="1574822441156" duration="2329000" />
+      <workItem from="1574871303599" duration="1715000" />
+      <workItem from="1574912194875" duration="1447000" />
+      <workItem from="1574917214718" duration="739000" />
+      <workItem from="1574923514557" duration="3467000" />
     </task>
     <servers />
   </component>
@@ -174,22 +182,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/shoplaptop.html</url>
-          <line>669</line>
+          <line>663</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/shoplaptop.html</url>
-          <line>716</line>
+          <line>710</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/home.html</url>
-          <line>690</line>
+          <line>684</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/shop-smarphone.html</url>
-          <line>447</line>
+          <line>441</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
