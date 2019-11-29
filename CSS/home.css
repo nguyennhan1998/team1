@@ -527,8 +527,10 @@ footer div:nth-child(2) ul li a:hover{
 }
 .sp1 div:nth-child(3) a{
     color:black;
-    font-weight:600;
-    font-size:18px;
+    font-weight:400;
+    font-size:16px;
+    padding-left:10px;
+    padding-right: 10px;
 }
 .sp1 div:nth-child(3):hover a{
     color:#6d6d6d;
@@ -550,13 +552,14 @@ footer div:nth-child(2) ul li a:hover{
     margin-top:-40px;
     width:100%;
 }
+
 .sp1 div:nth-child(6) ul{
     list-style:none;
 }
 .sp1 div:nth-child(6) ul li{
     margin-left:5px;
     float:left;
-    color:#fcbe32;
+    color:#6990cb;
 }
 
 /*hinh chuyen dong*/
@@ -678,7 +681,7 @@ footer div:nth-child(2) ul li a:hover{
 .sp3 div:nth-child(6) ul li{
     margin-left:5px;
     float:left;
-    color:#fcbe32;
+    color:#6990cb;
 }
 
 /*hinh chuyen dong*/
@@ -806,7 +809,7 @@ footer div:nth-child(2) ul li a:hover{
 .sp4 div:nth-child(6) ul li{
     margin-left:5px;
     float:left;
-    color:#fcbe32;
+    color:#6990cb;
 }
 
 /*hinh chuyen dong*/

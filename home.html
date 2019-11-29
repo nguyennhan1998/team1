@@ -34,7 +34,7 @@
                     <ul>
                         <li class="header-menudetail"><a href="home.html">HOME</a></li>
                         <li class="header-menudetail"><a href="map.html">CONTACT US</a></li>
-                        <li class="header-menudetail"><a href="#">ABOUT US</a></li>
+                        <li class="header-menudetail"><a href="blog1.html">ABOUT US</a></li>
                     </ul>
                 </div>
             </div>
@@ -127,8 +127,8 @@
                                 <ul>
                                     <li><a href="shop-smartwatch.html">WATCH</a></li>
                                     <li><a href="https://detail-team1.herokuapp.com/?id=48">Galaxy Watch Active2</a></li>
-                                    <li><a href="https://detail-team1.herokuapp.com/?id=49">Galaxy Fit</a></li>
-                                    <li><a href="https://detail-team1.herokuapp.com/?id=50">Gear Fit2 Pro</a></li>
+                                    <li><a href="https://detail-team1.herokuapp.com/?id=51">Galaxy Fit</a></li>
+                                    <li><a href="https://detail-team1.herokuapp.com/?id=49">Gear Fit2 Pro</a></li>
                                     <li><a href="#">All</a></li>
                                 </ul>
                             </li>
@@ -148,9 +148,9 @@
                             <li class="li2">
                                 <ul>
                                     <li><a href="#">MAC & IPAD</a></li>
-                                    <li><a href="https://detail-team1.herokuapp.com/?id=70">MacBook Air</a></li>
-                                    <li><a href="https://detail-team1.herokuapp.com/?id=72">Mac Pro</a></li>
-                                    <li><a href="https://detail-team1.herokuapp.com/?id=77">iMac</a></li>
+                                    <li><a href="https://detail-team1.herokuapp.com/?id=79">MacBook Air</a></li>
+                                    <li><a href="https://detail-team1.herokuapp.com/?id=80">Mac Pro</a></li>
+                                    <li><a href="https://detail-team1.herokuapp.com/?id=81">iMac</a></li>
                                     <li><a href="#">All</a></li>
 
                                 </ul>
@@ -226,7 +226,7 @@
                         <img src="IMG/cat-audio.jpg" height="250" width="300"/>
                     </div>
                     <div class="detail">
-                        <p class="name">Smartphone</p>
+                        <p class="name">TV</p>
                         <p class="descript">100 ITEMS</p>
                     </div>
                 </div></a>
@@ -300,7 +300,7 @@
             </div>
 
             <div class="shop-all-smartphone">
-                <span><a href="#">SHOP ALL SMARTPHONE</a></span>
+                <span><a href="shop-smarphone.html">SHOP ALL SMARTPHONE</a></span>
             </div>
         </div>
     </div>
@@ -315,7 +315,7 @@
             </div>
             <div class="add-laptop"></div>
             <div class="shop-all-computer">
-                <span><a href="#">SHOP ALL COMPUTER</a></span>
+                <span><a href="shoplaptop.html">SHOP ALL COMPUTER</a></span>
             </div>
         </div>
         <div class="right-top-computer">
@@ -571,7 +571,7 @@
         method: "GET",
         success: function (result) {
             var data1 = result.product;
-            for ( i = 3; i <56; i+=7) {
+            for ( i = 3; i <40; i+=5) {
                 var new_html = "<div class=\"sp1\">\n" +
                     "            <div><a href=\""+data1[i].link +
                     "\" class=\"thumb\"><img src=\"" + data1[i].images +
@@ -592,9 +592,9 @@
                     "            <div class=\"list\">\n" +
                     "                <ul>\n" +
                     "                    <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
-                    "                    <li title=\"ADD TO CARD\"><a href=\"#\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                    <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
                     "                    <li title=\"QUCK VIEW\"><a href=\"#\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
-                    "                    <li><a title=\"ADD TO COMPARE\" href=\"#\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                    <li><a title=\"ADD TO COMPARE\" href=\"giohang.html\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
                     "                </ul>\n" +
                     "            </div>\n" +
                     "            <div>\n" +
@@ -656,9 +656,9 @@
                                 "            <div class=\"list\">\n" +
                                 "                <ul>\n" +
                                 "                    <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
-                                "                    <li title=\"ADD TO CARD\"><a href=\"#\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                                "                    <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
                                 "                    <li title=\"QUCK VIEW\"><a href=\"#\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
-                                "                    <li><a title=\"ADD TO COMPARE\" href=\"#\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                                "                    <li><a title=\"ADD TO COMPARE\" href=\"giohang.html\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
                                 "                </ul>\n" +
                                 "            </div>\n" +
                                 "            <div>\n" +
@@ -723,9 +723,9 @@
                             "            <div class=\"list\">\n" +
                             "                <ul>\n" +
                             "                    <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
-                            "                    <li title=\"ADD TO CARD\"><a href=\"#\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                            "                    <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
                             "                    <li title=\"QUCK VIEW\"><a href=\"#\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
-                            "                    <li><a title=\"ADD TO COMPARE\" href=\"#\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                            "                    <li><a title=\"ADD TO COMPARE\" href=\"giohang.html\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
                             "                </ul>\n" +
                             "            </div>\n" +
                             "            <div>\n" +
@@ -778,9 +778,9 @@
                     "            <div class=\"list\">\n" +
                     "                <ul>\n" +
                     "                    <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
-                    "                    <li title=\"ADD TO CARD\"><a href=\"#\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                    <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
                     "                    <li title=\"QUCK VIEW\"><a href=\"#\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
-                    "                    <li><a title=\"ADD TO COMPARE\" href=\"#\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                    <li><a title=\"ADD TO COMPARE\" href=\"giohang.html\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
                     "                </ul>\n" +
                     "            </div>\n" +
                     "            <div>\n" +
@@ -805,7 +805,7 @@
         method: "GET",
         success: function (result) {
             var data1 = result.product;
-            for (var i=3; i <58; i+=7) {
+            for (var i=5; i <45; i+=5) {
                 var new_html = "<div class=\"sp1\">\n" +
                     "            <div><a href=\""+data1[i].link +
                     "\" class=\"thumb\"><img src=\"" + data1[i].images +
@@ -826,9 +826,9 @@
                     "            <div class=\"list\">\n" +
                     "                <ul>\n" +
                     "                    <li title=\"ADD TO WISHLISH\"><a href=\"#\"><i class=\"far fa-heart\" aria-hidden=\"true\"></i></a></li>\n" +
-                    "                    <li title=\"ADD TO CARD\"><a href=\"#\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                    <li title=\"ADD TO CARD\"><a href=\"giohang.html\"><i class=\"fas fa-cart-plus\" aria-hidden=\"true\"></i></a></li>\n" +
                     "                    <li title=\"QUCK VIEW\"><a href=\"#\"><i class=\"fas fa-expand-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
-                    "                    <li><a title=\"ADD TO COMPARE\" href=\"#\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
+                    "                    <li><a title=\"ADD TO COMPARE\" href=\"giohang.html\"><i class=\"fas fa-compress-arrows-alt\" aria-hidden=\"true\"></i></a></li>\n" +
                     "                </ul>\n" +
                     "            </div>\n" +
                     "            <div>\n" +
