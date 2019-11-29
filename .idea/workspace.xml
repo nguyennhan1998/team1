@@ -3,132 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/jquerysctipttop.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/slider-pro.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/cacmathang.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diachi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/1000cumtuthongdungnhat.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/2-smart-tivi-samsung-4k-50-inch-ua50ru7100.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Album 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Album 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Album 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Album 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Band Members.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Cofee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Header Background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Shirt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Tivi-samsung-ua43ru7100-1-600x400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/advertisement.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-macbook-pro-touch-2019-i5-14ghz-8gb-128gb-m-2-2-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-macbook-pro-touch-2019-i5-14ghz-8gb-256gb-m-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-macbook-pro-touch-2019-i9-26ghz-256gb-4gb-ra-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-macbook-pro-touch-mr9q2sa-a-2018-17-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-3-phien-ban-38-mm-1-3-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-edition-38mm-nt-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-s1-42mm-nt-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-s3-gps-42-mm-nt-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-s3-gps-42mm-vien-nhom-day-cao-su-den-nt-4-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-s4-gps-40mm-vien-nhom-mau-hong-nt-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-s4-gps-40mm-vien-nhom-xam-day-vai-den-nt-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-s4-gps-44mm-vien-nhom-day-cao-su-den-nt-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-s4-gps-44mm-vien-nhom-day-vai-hong-nt-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-s5-40mm-vien-nhom-day-cao-su10-2-1-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/apple-watch-s5-44mm-vien-nhom-day-cao-su-ava-1-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/banner_galaxy-tab-s6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/brown-bear-cushion.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/bts.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/customizable-mug.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/dong-ho-thong-minh-samsung-galaxy-watch-42mm-20-20-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/giai-ma-suc-hut-cua-the-he-iphone-11-tai-apple-event-nam-nay-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/home-block-bg-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/home-block-bg-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/home-block-bg-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iPhone-11-all-colors.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-11-128gb-white-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-11-256gb-yellow-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-11-pro-256gb-black-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-11-pro-black-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-11-pro-max-256gb-green-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-11-pro-max-green-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-11-red-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-x-64gb-hh-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-xs-256gb-white-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-xs-gold-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-xs-max-256gb-white-400x460.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-xs-max-256gb-white-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone-xs-max-gold-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone11-black-select-2019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone11-green-select-2019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone11-purple-select-2019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone11-red-select-2019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone11-white-select-2019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone11-yellow-select-2019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone11pro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone5c-350x380.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/iphone6-350x380 (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/macbook_pro-350x380.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a10-red-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a20-red-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a20s-32gb-red-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a20s-black-docquyen-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a30-32gb-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a30-blue-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a30s-green-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a50-128gb-blue-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a50-black-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a7-2018-128gb-black-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a7-2018-blue-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a70-white-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-a80-gold-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-fit-e-r375-2-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-fit-r370-3-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-m20-1-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-note-10-plus-silver-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-note-10-silver-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-s10-plus-black-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-watch-active-2-40-mm-den-1-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-watch-active-2-44-mm-day-da0101-1-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-watch-active-2-44-mm-sillicon-ava-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-galaxy-watch-active-r500-10-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-gear-fit2-pro-nt-1-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-qa43q65r-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-qa65q65r-26-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-ua43n5500-1-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-ua43r6000-19-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-ua43ru7200-12-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-ua43ru7400-20-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-ua50ru7200-12-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-ua50ru7400-21-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsung-ua55ru7200-12-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/samsungnote10footer (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slider5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slider6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slider7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slider8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slider8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slider9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/thumb_-hGmrm2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tivi-samsung-ua32n4300-32inch.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tivi-samsung-ua40mu6103-22-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tivi-samsung-ua43nu7090-23-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tivi-samsung-ua49n5500-22-550x340-550x340-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tivi-samsung-ua50nu7090-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/tivi-tcl-l55p6-uf-10-550x340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/ua55ru7100-4904.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/xperia_z2_01-350x380.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/giohang.html" beforeDir="false" afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/giohang1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/giohang3.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iPhone 11 64GB.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-color.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-color.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-smarphone.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-smarphone.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-smartwatch.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-smartwatch.html" afterDir="false" />
@@ -286,7 +163,8 @@
       <workItem from="1574953850856" duration="1105000" />
       <workItem from="1574990727136" duration="4748000" />
       <workItem from="1575006016719" duration="2499000" />
-      <workItem from="1575023344717" duration="5977000" />
+      <workItem from="1575023344717" duration="6658000" />
+      <workItem from="1575040669290" duration="4202000" />
     </task>
     <servers />
   </component>
