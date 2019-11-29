@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/giohang.html" beforeDir="false" afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-color.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-smarphone.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-smarphone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-smartwatch.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-smartwatch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoplaptop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoplaptop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoptv.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoptv.html" afterDir="false" />
-    </list>
+    <list default="true" id="2378e683-4985-402c-b17c-aa685bcee177" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +154,7 @@
       <workItem from="1574990727136" duration="4748000" />
       <workItem from="1575006016719" duration="2499000" />
       <workItem from="1575023344717" duration="6658000" />
-      <workItem from="1575040669290" duration="4202000" />
+      <workItem from="1575040669290" duration="4544000" />
     </task>
     <servers />
   </component>
