@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LIBETY ELECTRONIC" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/detail" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -154,6 +154,7 @@
       <workItem from="1574947966134" duration="310000" />
       <workItem from="1574951007000" duration="67000" />
       <workItem from="1574953850856" duration="1105000" />
+      <workItem from="1574990727136" duration="1625000" />
     </task>
     <servers />
   </component>
